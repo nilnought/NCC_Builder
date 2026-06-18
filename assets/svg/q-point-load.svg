@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+  <rect width="700" height="320" fill="#eef7fb"/>
+  <!-- ground -->
+  <rect x="0" y="210" width="700" height="110" fill="#c9a36b"/>
+  <!-- thin slab -->
+  <rect x="60" y="180" width="580" height="30" fill="#b9b6ad"/>
+  <text x="170" y="200" font-size="14" fill="#3d3b36">100 mm slab</text>
+  <!-- steel column landing mid-slab -->
+  <rect x="330" y="40" width="40" height="140" fill="#5f5e5a"/>
+  <rect x="318" y="40" width="64" height="12" fill="#5f5e5a"/>
+  <text x="350" y="30" font-size="14" fill="#2c2a26" text-anchor="middle">structural steel column (upper floor load)</text>
+  <!-- load arrow -->
+  <line x1="420" y1="70" x2="420" y2="150" stroke="#d85a30" stroke-width="3"/>
+  <polygon points="420,168 410,148 430,148" fill="#d85a30"/>
+  <text x="436" y="115" font-size="14" fill="#d85a30">heavy point load</text>
+  <!-- the question zone under the column -->
+  <circle cx="350" cy="240" r="20" fill="none" stroke="#d85a30" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <text x="350" y="248" font-size="22" font-weight="bold" fill="#d85a30" text-anchor="middle">?</text>
+  <text x="350" y="295" font-size="15" fill="#f5f3ee" text-anchor="middle">what does the slab need right here?</text>
+</svg>

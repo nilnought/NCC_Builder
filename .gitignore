@@ -1,0 +1,9 @@
+.claude/
+.cursor/
+
+# Local source/scratch extracts used while building the content.
+_hp*.txt
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db

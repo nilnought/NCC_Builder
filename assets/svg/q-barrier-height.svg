@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+  <rect width="700" height="320" fill="#eef7fb"/>
+  <!-- balcony (left) -->
+  <rect x="60" y="220" width="240" height="16" fill="#8a6f4e"/>
+  <rect x="64" y="124" width="8" height="96" fill="#5f5e5a"/>
+  <rect x="290" y="124" width="8" height="96" fill="#5f5e5a"/>
+  <rect x="64" y="120" width="234" height="8" fill="#5f5e5a"/>
+  <text x="180" y="256" font-size="13" fill="#2c2a26" text-anchor="middle">balcony edge</text>
+  <line x1="48" y1="124" x2="48" y2="220" stroke="#d85a30" stroke-width="2"/>
+  <line x1="42" y1="124" x2="54" y2="124" stroke="#d85a30" stroke-width="2"/>
+  <line x1="42" y1="220" x2="54" y2="220" stroke="#d85a30" stroke-width="2"/>
+  <text x="40" y="168" font-size="16" font-weight="bold" fill="#d85a30" text-anchor="end">?</text>
+  <text x="40" y="185" font-size="11" fill="#d85a30" text-anchor="end">height</text>
+
+  <!-- stair (right) -->
+  <polygon points="400,250 400,210 460,210 460,170 520,170 520,130 580,130 580,250" fill="#d9c9a8" stroke="#8a6f4e" stroke-width="2"/>
+  <!-- nosing line: runs through the front edges (nosings) of the treads -->
+  <line x1="400" y1="210" x2="588" y2="84" stroke="#6b675f" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <circle cx="400" cy="210" r="3" fill="#6b675f"/><circle cx="460" cy="170" r="3" fill="#6b675f"/><circle cx="520" cy="130" r="3" fill="#6b675f"/>
+  <text x="590" y="96" font-size="10.5" fill="#6b675f">nosing line</text>
+  <!-- stair barrier, parallel and above the nosing line -->
+  <line x1="402" y1="160" x2="582" y2="40" stroke="#5f5e5a" stroke-width="6"/>
+  <!-- height measured from the nosing line up to the barrier -->
+  <line x1="470" y1="163" x2="470" y2="113" stroke="#d85a30" stroke-width="2"/>
+  <line x1="464" y1="163" x2="476" y2="163" stroke="#d85a30" stroke-width="2"/>
+  <line x1="464" y1="113" x2="476" y2="113" stroke="#d85a30" stroke-width="2"/>
+  <text x="484" y="135" font-size="16" font-weight="bold" fill="#d85a30">?</text>
+  <text x="484" y="152" font-size="10" fill="#d85a30">above nosings</text>
+  <text x="500" y="272" font-size="13" fill="#2c2a26" text-anchor="middle">stair flight</text>
+</svg>

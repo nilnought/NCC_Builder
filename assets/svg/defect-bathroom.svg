@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="sans-serif">
+  <defs><marker id="ba" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#993c1d"/></marker></defs>
+  <rect width="800" height="450" fill="#eef7fb"/>
+  <!-- roof space -->
+  <polygon points="40,116 760,116 400,30" fill="#e7ddc8"/>
+  <rect x="40" y="116" width="720" height="8" fill="#8a6f4e"/>
+  <text x="150" y="100" font-size="12.5" fill="#7c5f2c">roof space</text>
+  <!-- bathroom box -->
+  <rect x="40" y="124" width="720" height="246" fill="#f3f6f7" stroke="#b4b2a9" stroke-width="2"/>
+  <text x="400" y="160" font-size="15" fill="#9aa0a3" text-anchor="middle" font-weight="bold">BATHROOM</text>
+  <!-- floor + ground -->
+  <rect x="40" y="354" width="720" height="16" fill="#b9b6ad"/>
+  <rect x="0" y="370" width="800" height="40" fill="#c9a36b"/>
+
+  <!-- (1) shower at left, membrane stops at ~1000 mm (defect) -->
+  <rect x="56" y="150" width="120" height="204" fill="#dfeaee" stroke="#9fb9c0" stroke-width="2"/>
+  <text x="116" y="146" font-size="11.5" fill="#2c2a26" text-anchor="middle">shower</text>
+  <line x1="70" y1="354" x2="70" y2="256" stroke="#1d9e75" stroke-width="6"/>
+  <line x1="70" y1="256" x2="170" y2="256" stroke="#993c1d" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="120" y="248" font-size="10.5" fill="#993c1d" text-anchor="middle">membrane stops here</text>
+  <!-- height of the membrane -->
+  <line x1="92" y1="354" x2="92" y2="256" stroke="#993c1d" stroke-width="1.3" marker-start="url(#ba)" marker-end="url(#ba)"/>
+  <text x="100" y="312" font-size="10.5" fill="#993c1d">&#8776;1000 mm</text>
+
+  <!-- (2) bathroom floor falling AWAY from a drain (defect) -->
+  <rect x="306" y="326" width="14" height="12" fill="#8f8c84"/>
+  <polygon points="320,326 560,346 560,360 320,340" fill="#cdbf9e"/>
+  <line x1="360" y1="318" x2="520" y2="340" stroke="#993c1d" stroke-width="2" marker-end="url(#ba)"/>
+  <text x="440" y="302" font-size="11" fill="#993c1d" text-anchor="middle">floor slopes away from the drain</text>
+  <ellipse cx="538" cy="350" rx="20" ry="5" fill="#378add" opacity="0.7"/>
+  <text x="556" y="372" font-size="10" fill="#993c1d" text-anchor="middle">water pools here</text>
+
+  <!-- (3) exhaust fan dumping INTO the roof space (defect) -->
+  <rect x="600" y="150" width="48" height="16" fill="#d3d1c7" stroke="#8f8c84" stroke-width="2"/>
+  <path d="M624 150 L624 112 L644 106" fill="none" stroke="#8f8c84" stroke-width="6"/>
+  <g fill="#cdd9df" opacity="0.85"><circle cx="654" cy="104" r="8"/><circle cx="672" cy="110" r="6"/><circle cx="662" cy="94" r="6"/></g>
+  <text x="680" y="78" font-size="10" fill="#7c5f2c" text-anchor="middle">moist air dumped into the roof space</text>
+  <text x="624" y="182" font-size="10.5" fill="#2c2a26" text-anchor="middle">exhaust fan</text>
+
+  <!-- (4) floor waste at the low point, correct fall (OK) -->
+  <polygon points="200,330 312,330 256,352" fill="#cdbf9e"/>
+  <rect x="246" y="348" width="20" height="8" fill="#5f5e5a"/>
+  <line x1="214" y1="334" x2="248" y2="350" stroke="#0f6e56" stroke-width="1.6" marker-end="url(#ba)"/>
+  <line x1="298" y1="334" x2="264" y2="350" stroke="#0f6e56" stroke-width="1.6" marker-end="url(#ba)"/>
+  <text x="256" y="324" font-size="10.5" fill="#2c2a26" text-anchor="middle">falls to waste (low point)</text>
+
+  <!-- (5) window — openable, light & air (OK) -->
+  <rect x="724" y="190" width="40" height="80" fill="#cfe8f0" stroke="#8aa6ad" stroke-width="2"/>
+  <line x1="724" y1="230" x2="764" y2="230" stroke="#8aa6ad" stroke-width="2"/>
+  <text x="744" y="170" font-size="9.5" fill="#6b675f" text-anchor="middle">(light &amp; air)</text>
+  <text x="744" y="182" font-size="10.5" fill="#2c2a26" text-anchor="middle">openable window</text>
+</svg>

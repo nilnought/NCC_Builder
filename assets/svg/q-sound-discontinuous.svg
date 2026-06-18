@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+<rect width="700" height="300" fill="#eef7fb"/>
+<text x="350" y="32" font-size="13" fill="#2c2a26" text-anchor="middle">a 'discontinuous' separating wall — built as two structurally separate leaves</text>
+<!-- two dwellings -->
+<rect x="56" y="58" width="258" height="186" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+<rect x="386" y="58" width="258" height="186" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+<text x="170" y="226" font-size="13" fill="#6b675f" text-anchor="middle">dwelling A — room ?</text>
+<text x="515" y="226" font-size="13" fill="#6b675f" text-anchor="middle">dwelling B — room ?</text>
+<!-- the two separate leaves with a gap between -->
+<rect x="314" y="50" width="14" height="194" fill="#8f8c84"/>
+<rect x="372" y="50" width="14" height="194" fill="#8f8c84"/>
+<text x="350" y="252" font-size="10.5" fill="#5f5e5a" text-anchor="middle">air gap</text>
+<!-- noise from A hits the first leaf and the gap stops it crossing -->
+<g fill="none" stroke="#9a6cc4" stroke-width="2.5" opacity="0.8">
+  <path d="M214 150 q26 -34 0 -68"/>
+  <path d="M238 150 q34 -44 0 -88"/>
+  <path d="M262 150 q42 -54 0 -108"/>
+</g>
+<text x="196" y="150" font-size="12" fill="#7a4fb0" text-anchor="end">noise</text>
+<text x="350" y="284" font-size="13" fill="#d85a30" text-anchor="middle">Which room backing which next door forces this split wall?</text>
+</svg>

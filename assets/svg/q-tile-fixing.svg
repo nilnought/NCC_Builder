@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 330" font-family="sans-serif">
+<rect width="700" height="330" fill="#eef7fb"/>
+<text x="350" y="26" font-size="15" fill="#d85a30" text-anchor="middle">Which tiles always get fixed down first?</text>
+<text x="350" y="46" font-size="11.5" fill="#6b675f" text-anchor="middle">one whole roof slope, looking straight down at it</text>
+
+<!-- whole slope = perimeter band (amber); field overlaid on top -->
+<rect x="80" y="62" width="540" height="196" fill="#e0a23e"/>
+<rect x="108" y="90" width="484" height="140" fill="#c96f4a"/>
+
+<!-- tile course + joint lines, to show this is MANY tiles, not one -->
+<g stroke="#8f4a2c" stroke-width="1" opacity="0.45">
+  <line x1="80" y1="90" x2="620" y2="90"/>
+  <line x1="80" y1="118" x2="620" y2="118"/>
+  <line x1="80" y1="146" x2="620" y2="146"/>
+  <line x1="80" y1="174" x2="620" y2="174"/>
+  <line x1="80" y1="202" x2="620" y2="202"/>
+  <line x1="80" y1="230" x2="620" y2="230"/>
+  <line x1="136" y1="62" x2="136" y2="258"/>
+  <line x1="192" y1="62" x2="192" y2="258"/>
+  <line x1="248" y1="62" x2="248" y2="258"/>
+  <line x1="304" y1="62" x2="304" y2="258"/>
+  <line x1="360" y1="62" x2="360" y2="258"/>
+  <line x1="416" y1="62" x2="416" y2="258"/>
+  <line x1="472" y1="62" x2="472" y2="258"/>
+  <line x1="528" y1="62" x2="528" y2="258"/>
+  <line x1="564" y1="62" x2="564" y2="258"/>
+</g>
+
+<!-- edge labels -->
+<text x="350" y="58" font-size="12.5" fill="#7a4a14" text-anchor="middle">ridge / hip — top edge</text>
+<text x="350" y="277" font-size="12.5" fill="#7a4a14" text-anchor="middle">eaves — bottom edge (over the gutter)</text>
+<text x="64" y="160" font-size="12.5" fill="#7a4a14" text-anchor="middle" transform="rotate(-90 64 160)">barge (rake) — side edge</text>
+<text x="636" y="160" font-size="12.5" fill="#7a4a14" text-anchor="middle" transform="rotate(90 636 160)">barge (rake) — side edge</text>
+
+<!-- inner field label -->
+<text x="350" y="165" font-size="14" fill="#ffffff" text-anchor="middle">field tiles</text>
+
+<!-- legend -->
+<rect x="150" y="300" width="16" height="14" fill="#e0a23e"/>
+<text x="172" y="312" font-size="12" fill="#2c2a26">perimeter (edge) tiles — ridge, hip, barge, eaves</text>
+<rect x="470" y="300" width="16" height="14" fill="#c96f4a"/>
+<text x="492" y="312" font-size="12" fill="#2c2a26">field tiles</text>
+</svg>

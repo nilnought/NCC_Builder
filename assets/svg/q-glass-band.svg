@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+<rect width="700" height="300" fill="#eef7fb"/>
+<rect x="0" y="260" width="700" height="40" fill="#d8cbb4"/>
+<rect x="250" y="30" width="200" height="230" fill="#dff0f6" stroke="#8aa6ad" stroke-width="3" opacity="0.85"/>
+<rect x="250" y="150" width="200" height="22" fill="#b4b2a9"/>
+<text x="470" y="166" font-size="12.5" fill="#2c2a26">opaque band</text>
+<line x1="220" y1="172" x2="220" y2="260" stroke="#d85a30" stroke-width="2"/>
+<line x1="220" y1="150" x2="220" y2="260" stroke="#d85a30" stroke-width="2" stroke-dasharray="4 4"/>
+<text x="206" y="210" font-size="14" font-weight="bold" fill="#d85a30" text-anchor="end">? height</text>
+<text x="350" y="288" font-size="13" fill="#2c2a26" text-anchor="middle">at what height must the visibility band sit?</text>
+</svg>

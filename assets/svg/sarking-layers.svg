@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" font-family="sans-serif">
+<rect width="700" height="280" fill="#eef7fb"/>
+<text x="350" y="28" font-size="14" fill="#2c2a26" text-anchor="middle">Where sarking sits — the roof's hidden second skin</text>
+<text x="350" y="46" font-size="11.5" fill="#6b675f" text-anchor="middle">section through a tiled roof</text>
+
+<!-- rafter -->
+<rect x="70" y="200" width="520" height="30" fill="#c9a06a" stroke="#a07d4e" stroke-width="1.5"/>
+<!-- sarking membrane (continuous) -->
+<rect x="70" y="184" width="520" height="8" fill="#cdd5da" stroke="#8a949b" stroke-width="0.8"/>
+<!-- battens on top of the sarking -->
+<rect x="150" y="160" width="16" height="20" fill="#9a7b4f" stroke="#6f562f" stroke-width="1"/>
+<rect x="310" y="160" width="16" height="20" fill="#9a7b4f" stroke="#6f562f" stroke-width="1"/>
+<rect x="470" y="160" width="16" height="20" fill="#9a7b4f" stroke="#6f562f" stroke-width="1"/>
+<!-- tiles overlapping on top -->
+<path d="M70 152 q45 -26 90 0 q45 -26 90 0 q45 -26 90 0 q45 -26 90 0 q45 -26 90 0 q45 -26 70 0"
+      fill="#c96f4a" stroke="#9a4f30" stroke-width="2"/>
+<!-- labels -->
+<g font-size="12.5" fill="#2c2a26">
+  <line x1="592" y1="140" x2="628" y2="140" stroke="#6b675f" stroke-width="1"/><text x="632" y="144">tile</text>
+  <line x1="486" y1="170" x2="628" y2="170" stroke="#6b675f" stroke-width="1"/><text x="632" y="174">batten</text>
+  <line x1="590" y1="188" x2="628" y2="188" stroke="#6b675f" stroke-width="1"/><text x="632" y="192" font-weight="bold" fill="#2f6b8f">sarking</text>
+  <line x1="590" y1="215" x2="628" y2="215" stroke="#6b675f" stroke-width="1"/><text x="632" y="219">rafter</text>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" font-family="sans-serif">
+  <rect width="700" height="340" fill="#eef7fb"/>
+  <!-- natural soil mass (everything below the original sloping surface) -->
+  <polygon points="0,120 700,290 700,340 0,340" fill="#c9a36b"/>
+  <!-- excavated area on the high side (cut): sky shows where soil was removed -->
+  <polygon points="0,120 329,200 0,200" fill="#eef7fb"/>
+  <!-- fill wedge on the low side: sits ABOVE the old natural surface, up to platform level -->
+  <polygon points="329,200 700,290 700,200" fill="#efd07a"/>
+  <!-- old natural ground line, dashed, drawn over everything -->
+  <line x1="0" y1="120" x2="700" y2="290" stroke="#6b675f" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="100" y="108" font-size="13" fill="#6b675f">old natural ground (dashed line)</text>
+  <!-- area labels, placed inside the areas they name -->
+  <text x="150" y="245" font-size="14" fill="#f5f3ee" text-anchor="middle">natural soil — the cut side</text>
+  <text x="468" y="228" font-size="14" fill="#7c5f2c" text-anchor="middle">rolled fill — the yellow wedge</text>
+  <!-- slab with edge beams on the new platform -->
+  <rect x="60" y="180" width="580" height="20" fill="#b9b6ad"/>
+  <rect x="60" y="180" width="50" height="55" fill="#b9b6ad"/>
+  <rect x="590" y="180" width="50" height="55" fill="#b9b6ad"/>
+  <text x="330" y="172" font-size="14" fill="#2c2a26" text-anchor="middle">slab on the new flat platform</text>
+  <!-- the problem: downhill edge beam, labelled right next to it -->
+  <line x1="612" y1="158" x2="612" y2="176" stroke="#d85a30" stroke-width="2"/>
+  <polygon points="612,180 604,164 620,164" fill="#d85a30"/>
+  <text x="606" y="138" font-size="14" fill="#d85a30" text-anchor="end">downhill edge beam —</text>
+  <text x="606" y="154" font-size="14" fill="#d85a30" text-anchor="end">it lands over the fill</text>
+  <text x="660" y="262" font-size="24" font-weight="bold" fill="#d85a30" text-anchor="middle">?</text>
+</svg>

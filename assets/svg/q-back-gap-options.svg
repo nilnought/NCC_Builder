@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+<rect width="700" height="300" fill="#eef7fb"/>
+<text x="350" y="26" font-size="15" fill="#2c2a26" text-anchor="middle">Three ways to hang the gutter behind the fascia</text>
+<text x="350" y="45" font-size="11.5" fill="#6b675f" text-anchor="middle">cut-away section · the wall/roof is to the RIGHT of the fascia, the open air is to the LEFT</text>
+
+<!-- ===== Option A: sealed tight, no gap ===== -->
+<rect x="150" y="80" width="16" height="130" fill="#8a6f4e" stroke="#5e4a30" stroke-width="1.2"/>
+<path d="M150 78 L150 200 L70 200 L70 100" fill="none" stroke="#6f7d86" stroke-width="6"/>
+<text x="150" y="64" font-size="17" fill="#993c1d" text-anchor="middle">?</text>
+<text x="118" y="232" font-size="13" fill="#2c2a26" text-anchor="middle">A — sealed to fascia</text>
+<!-- orientation labels (shown once) -->
+<line x1="166" y1="118" x2="196" y2="118" stroke="#6b675f" stroke-width="1"/><text x="200" y="122" font-size="12" fill="#2c2a26">fascia</text>
+<line x1="96" y1="170" x2="60" y2="186" stroke="#6b675f" stroke-width="1"/><text x="56" y="190" font-size="12" fill="#2c2a26" text-anchor="end">gutter</text>
+
+<!-- ===== Option B: small gap ===== -->
+<rect x="380" y="80" width="16" height="130" fill="#8a6f4e" stroke="#5e4a30" stroke-width="1.2"/>
+<path d="M368 96 L368 200 L288 200 L288 108" fill="none" stroke="#6f7d86" stroke-width="6"/>
+<line x1="368" y1="84" x2="380" y2="84" stroke="#993c1d" stroke-width="1.2"/>
+<text x="374" y="74" font-size="17" fill="#993c1d" text-anchor="middle">?</text>
+<text x="344" y="232" font-size="13" fill="#2c2a26" text-anchor="middle">B — small gap</text>
+
+<!-- ===== Option C: clear gap with spacer ===== -->
+<rect x="610" y="80" width="16" height="130" fill="#8a6f4e" stroke="#5e4a30" stroke-width="1.2"/>
+<path d="M580 112 L580 200 L500 200 L500 120" fill="none" stroke="#6f7d86" stroke-width="6"/>
+<rect x="582" y="118" width="26" height="9" fill="#b5bdc3" stroke="#7d8b94" stroke-width="0.8"/>
+<text x="595" y="138" font-size="9.5" fill="#5b5852" text-anchor="middle">spacer</text>
+<line x1="580" y1="100" x2="610" y2="100" stroke="#993c1d" stroke-width="1.2"/>
+<text x="595" y="92" font-size="17" fill="#993c1d" text-anchor="middle">?</text>
+<text x="566" y="232" font-size="13" fill="#2c2a26" text-anchor="middle">C — clear gap</text>
+
+<text x="350" y="270" font-size="13" fill="#0f6e56" text-anchor="middle">Which one lets a storm overflow spill OUTWARD, not back into the roof?</text>
+</svg>

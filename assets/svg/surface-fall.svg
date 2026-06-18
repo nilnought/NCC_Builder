@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 330" font-family="sans-serif">
+  <rect width="700" height="330" fill="#eef7fb"/>
+  <!-- house -->
+  <rect x="520" y="90" width="180" height="115" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <polygon points="505,90 700,90 700,40 620,18" fill="#c96f4a"/>
+  <rect x="520" y="205" width="180" height="40" fill="#b9b6ad"/>
+  <text x="608" y="160" font-size="16" fill="#2c2a26" text-anchor="middle">house</text>
+  <text x="608" y="230" font-size="14" fill="#3d3b36" text-anchor="middle">slab</text>
+  <!-- ground falling away from the slab edge (exaggerated) -->
+  <polygon points="520,245 370,283 0,297 0,330 700,330 700,245" fill="#c9a36b"/>
+  <line x1="520" y1="245" x2="370" y2="283" stroke="#9bc97e" stroke-width="5"/>
+  <line x1="370" y1="283" x2="0" y2="297" stroke="#9bc97e" stroke-width="5"/>
+  <!-- water running away -->
+  <g stroke="#378add" stroke-width="2.5" fill="none">
+    <path d="M495 240 q-22 8 -44 13"/><path d="M438 256 q-20 7 -40 12"/>
+  </g>
+  <polygon points="394,270 408,262 406,273" fill="#378add"/>
+  <!-- level reference from the slab edge -->
+  <line x1="520" y1="245" x2="360" y2="245" stroke="#d85a30" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <!-- drop dimension at the 1 m point -->
+  <line x1="370" y1="245" x2="370" y2="283" stroke="#d85a30" stroke-width="2"/>
+  <line x1="362" y1="245" x2="378" y2="245" stroke="#d85a30" stroke-width="2"/>
+  <line x1="362" y1="283" x2="378" y2="283" stroke="#d85a30" stroke-width="2"/>
+  <text x="354" y="240" font-size="14" fill="#d85a30" text-anchor="end">min drop</text>
+  <text x="354" y="262" font-size="20" font-weight="bold" fill="#d85a30" text-anchor="end">? mm</text>
+  <!-- 1 m horizontal dimension -->
+  <line x1="370" y1="305" x2="520" y2="305" stroke="#5f5e5a" stroke-width="2"/>
+  <line x1="370" y1="287" x2="370" y2="312" stroke="#5f5e5a" stroke-width="2"/>
+  <line x1="520" y1="249" x2="520" y2="312" stroke="#5f5e5a" stroke-width="2"/>
+  <text x="445" y="324" font-size="15" fill="#3d3b36" text-anchor="middle">first 1 m from the building</text>
+  <text x="150" y="272" font-size="15" fill="#2c2a26" text-anchor="middle">finished ground, graded away</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" font-family="sans-serif">
+<rect width="700" height="260" fill="#eef7fb"/>
+<rect x="0" y="220" width="700" height="40" fill="#cdbf9e"/>
+<!-- shower wall + head -->
+<rect x="120" y="30" width="100" height="190" fill="#e7eef0" stroke="#c4d2d6" stroke-width="1.5"/>
+<rect x="150" y="30" width="8" height="18" fill="#8f8c84"/>
+<circle cx="154" cy="50" r="6" fill="#8f8c84"/>
+<g stroke="#2f9bd6" stroke-width="2"><line x1="149" y1="58" x2="145" y2="92"/><line x1="156" y1="58" x2="153" y2="98"/><line x1="163" y1="58" x2="166" y2="90"/></g>
+<!-- shower screen (glass) -->
+<rect x="220" y="30" width="170" height="190" fill="#dfeaee" stroke="#9fb9c0" stroke-width="3"/>
+<text x="305" y="130" font-size="13" fill="#2c2a26" text-anchor="middle">shower screen</text>
+<!-- wet, slippery floor -->
+<ellipse cx="300" cy="226" rx="125" ry="9" fill="#bcd6e0" opacity="0.85"/>
+<text x="300" y="247" font-size="11" fill="#2f6b8f" text-anchor="middle">wet, slippery floor</text>
+<!-- caption (the question is WHY, not how high) -->
+<text x="470" y="116" font-size="13" fill="#2c2a26">bathrooms are wet &amp; slippery —</text>
+<text x="470" y="138" font-size="13" fill="#2c2a26">why must the glass be safety</text>
+<text x="470" y="160" font-size="13" fill="#2c2a26">glass so high up the wall?</text>
+</svg>

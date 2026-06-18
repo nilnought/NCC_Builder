@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" font-family="sans-serif">
+<rect width="700" height="260" fill="#eef7fb"/>
+<rect x="60" y="40" width="240" height="180" fill="#dfeaee" stroke="#9fb9c0" stroke-width="2"/>
+<rect x="60" y="40" width="240" height="150" fill="#9fd0e0" opacity="0.6"/>
+<text x="180" y="120" font-size="13" fill="#2c4a55" text-anchor="middle">shower</text>
+<text x="180" y="240" font-size="12.5" fill="#d85a30" text-anchor="middle">soaked → ?</text>
+<rect x="340" y="120" width="300" height="100" fill="#f3f6f7" stroke="#b4b2a9" stroke-width="2"/>
+<g fill="#9fd0e0"><circle cx="430" cy="150" r="4"/><circle cx="520" cy="170" r="4"/></g>
+<text x="490" y="175" font-size="13" fill="#2c2a26" text-anchor="middle">rest of floor</text>
+<text x="490" y="240" font-size="12.5" fill="#d85a30" text-anchor="middle">splashed → ?</text>
+<text x="350" y="30" font-size="14" fill="#2c2a26" text-anchor="middle">soaked vs splashed — same protection?</text>
+</svg>

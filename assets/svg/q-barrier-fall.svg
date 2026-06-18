@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+  <rect width="700" height="320" fill="#eef7fb"/>
+  <!-- raised deck -->
+  <rect x="80" y="120" width="320" height="20" fill="#8a6f4e"/>
+  <rect x="90" y="140" width="14" height="120" fill="#6b5640"/>
+  <rect x="376" y="140" width="14" height="120" fill="#6b5640"/>
+  <text x="240" y="110" font-size="14" fill="#2c2a26" text-anchor="middle">raised deck (no barrier yet)</text>
+  <!-- person standing near edge -->
+  <circle cx="360" cy="104" r="9" fill="#534ab7"/>
+  <rect x="355" y="113" width="10" height="22" fill="#534ab7"/>
+  <!-- ground below -->
+  <rect x="0" y="260" width="700" height="60" fill="#c9a36b"/>
+  <line x1="0" y1="260" x2="700" y2="260" stroke="#9bc97e" stroke-width="4"/>
+  <!-- drop dimension -->
+  <line x1="430" y1="140" x2="430" y2="260" stroke="#d85a30" stroke-width="2"/>
+  <line x1="422" y1="140" x2="438" y2="140" stroke="#d85a30" stroke-width="2"/>
+  <line x1="422" y1="260" x2="438" y2="260" stroke="#d85a30" stroke-width="2"/>
+  <text x="448" y="196" font-size="20" font-weight="bold" fill="#d85a30">?</text>
+  <text x="448" y="216" font-size="12.5" fill="#d85a30">drop</text>
+  <text x="350" y="300" font-size="13" fill="#2c2a26" text-anchor="middle">how big a drop before a barrier is required?</text>
+</svg>

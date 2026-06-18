@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="sans-serif">
+  <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#6b675f"/></marker></defs>
+  <rect width="800" height="450" fill="#f6f3ec"/>
+  <!-- ceiling + floor (so full-height is clear) -->
+  <line x1="0" y1="66" x2="800" y2="66" stroke="#b3a488" stroke-width="2"/>
+  <text x="8" y="60" font-size="10" fill="#9a8f78">ceiling</text>
+  <rect x="0" y="370" width="800" height="80" fill="#d8cbb4"/>
+  <line x1="0" y1="370" x2="800" y2="370" stroke="#b3a488" stroke-width="3"/>
+
+  <!-- 1: FULL-HEIGHT clear panel, ceiling-to-floor, reads as a doorway (defect) -->
+  <rect x="52" y="66" width="130" height="304" fill="#dff0f6" stroke="#aac2ca" stroke-width="2" opacity="0.8"/>
+  <line x1="70" y1="350" x2="120" y2="100" stroke="#ffffff" stroke-width="6" opacity="0.65"/>
+  <text x="117" y="54" font-size="12.5" fill="#2c2a26" text-anchor="middle">full-height clear panel</text>
+  <text x="117" y="92" font-size="11" fill="#6b675f" text-anchor="middle">an open doorway — or glass?</text>
+  <!-- person walking toward the apparent opening -->
+  <g fill="#5f5e5a">
+    <circle cx="248" cy="292" r="11"/>
+    <rect x="241" y="304" width="14" height="38" rx="3"/>
+    <line x1="248" y1="342" x2="239" y2="366" stroke="#5f5e5a" stroke-width="4"/>
+    <line x1="248" y1="342" x2="256" y2="366" stroke="#5f5e5a" stroke-width="4"/>
+    <line x1="243" y1="314" x2="226" y2="328" stroke="#5f5e5a" stroke-width="4"/>
+  </g>
+  <line x1="224" y1="320" x2="188" y2="320" stroke="#6b675f" stroke-width="1.2" stroke-dasharray="5 3" marker-end="url(#ar)"/>
+
+  <!-- 2: glass door, no safety stamp (defect) -->
+  <rect x="306" y="130" width="128" height="240" fill="#dff0f6" stroke="#5f5e5a" stroke-width="5"/>
+  <circle cx="420" cy="252" r="6" fill="#5f5e5a"/>
+  <line x1="330" y1="350" x2="380" y2="160" stroke="#ffffff" stroke-width="5" opacity="0.8"/>
+  <text x="370" y="120" font-size="13" fill="#2c2a26" text-anchor="middle">glass door</text>
+
+  <!-- 3: annealed side panel hard against the doorway (defect) -->
+  <rect x="452" y="150" width="84" height="220" fill="#dff0f6" stroke="#8aa6ad" stroke-width="3"/>
+  <text x="494" y="140" font-size="12.5" fill="#2c2a26" text-anchor="middle">side panel: 4 mm annealed</text>
+  <text x="494" y="392" font-size="12" fill="#6b675f" text-anchor="middle">150 mm from doorway</text>
+
+  <!-- 4: high window, ordinary glass (OK) -->
+  <rect x="596" y="120" width="84" height="120" fill="#dff0f6" stroke="#8aa6ad" stroke-width="3"/>
+  <text x="638" y="100" font-size="12.5" fill="#2c2a26" text-anchor="middle">ordinary glass</text>
+  <text x="638" y="113" font-size="11" fill="#6b675f" text-anchor="middle">sill at 1.4 m</text>
+  <line x1="596" y1="240" x2="680" y2="240" stroke="#8a6f4e" stroke-width="6"/>
+
+  <!-- 5: low panel beside the STAIR, with etched safety stamp (OK) -->
+  <g fill="#cdbf9e" stroke="#a8987a" stroke-width="1.2">
+    <rect x="686" y="330" width="22" height="13"/>
+    <rect x="664" y="343" width="44" height="13"/>
+    <rect x="642" y="356" width="66" height="13"/>
+  </g>
+  <text x="668" y="390" font-size="11" fill="#6b675f" text-anchor="middle">stair</text>
+  <rect x="706" y="200" width="78" height="170" fill="#dff0f6" stroke="#8aa6ad" stroke-width="3"/>
+  <g font-size="8.5" fill="#5f5e5a">
+    <text x="714" y="250">AS 2208</text>
+    <text x="714" y="260">GRADE A · 6mm</text>
+    <text x="714" y="270">TOUGH · ACME</text>
+  </g>
+  <text x="745" y="180" font-size="12.5" fill="#2c2a26" text-anchor="middle">low panel</text>
+  <text x="745" y="193" font-size="11" fill="#0f6e56" text-anchor="middle">(safety glass)</text>
+</svg>

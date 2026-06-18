@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+<rect width="700" height="300" fill="#eef7fb"/>
+<rect x="0" y="210" width="700" height="90" fill="#c9a36b"/>
+<line x1="0" y1="210" x2="700" y2="210" stroke="#9bc97e" stroke-width="5"/>
+<rect x="220" y="30" width="260" height="220" fill="#cd7d58"/>
+<g stroke="#a8512f" stroke-width="2"><line x1="220" y1="70" x2="480" y2="70"/><line x1="220" y1="110" x2="480" y2="110"/><line x1="220" y1="190" x2="480" y2="190"/></g>
+<rect x="220" y="150" width="260" height="8" fill="#2c2a26"/>
+<text x="500" y="158" font-size="13" fill="#2c2a26">damp-proof course</text>
+<line x1="190" y1="158" x2="190" y2="210" stroke="#d85a30" stroke-width="2"/>
+<line x1="182" y1="158" x2="198" y2="158" stroke="#d85a30" stroke-width="2"/>
+<line x1="182" y1="210" x2="198" y2="210" stroke="#d85a30" stroke-width="2"/>
+<text x="176" y="190" font-size="18" font-weight="bold" fill="#d85a30" text-anchor="end">?</text>
+<text x="350" y="280" font-size="14" fill="#2c2a26" text-anchor="middle">how high must the DPC sit above the ground?</text>
+</svg>

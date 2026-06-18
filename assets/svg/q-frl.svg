@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" font-family="sans-serif">
+<rect width="700" height="260" fill="#eef7fb"/>
+<text x="350" y="34" font-size="16" font-weight="bold" fill="#2c2a26" text-anchor="middle">FRL  60 / 60 / 60</text>
+<g>
+<rect x="60" y="70" width="180" height="120" rx="10" fill="#faece7" stroke="#d85a30" stroke-width="2"/>
+<text x="150" y="120" font-size="40" text-anchor="middle">&#129521;</text>
+<text x="150" y="170" font-size="13" fill="#993c1d" text-anchor="middle">stays standing?</text>
+<rect x="260" y="70" width="180" height="120" rx="10" fill="#faece7" stroke="#d85a30" stroke-width="2"/>
+<text x="350" y="120" font-size="40" text-anchor="middle">&#128293;</text>
+<text x="350" y="170" font-size="13" fill="#993c1d" text-anchor="middle">holds back flame?</text>
+<rect x="460" y="70" width="180" height="120" rx="10" fill="#faece7" stroke="#d85a30" stroke-width="2"/>
+<text x="550" y="120" font-size="40" text-anchor="middle">&#127777;&#65039;</text>
+<text x="550" y="170" font-size="13" fill="#993c1d" text-anchor="middle">far side stays cool?</text>
+</g>
+<text x="350" y="228" font-size="14" fill="#2c2a26" text-anchor="middle">three numbers — what do they measure?</text>
+</svg>

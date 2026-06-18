@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" font-family="sans-serif">
+  <rect width="700" height="340" fill="#eef7fb"/>
+  <text x="350" y="32" font-size="15" fill="#6b675f" text-anchor="middle">slab seen from above (plan view)</text>
+  <!-- L-shaped slab -->
+  <path d="M140 60 L560 60 L560 180 L380 180 L380 300 L140 300 Z" fill="#b9b6ad" stroke="#8f8c84" stroke-width="3"/>
+  <text x="280" y="130" font-size="15" fill="#3d3b36" text-anchor="middle">L-shaped slab</text>
+  <!-- crack starting at the internal (re-entrant) corner -->
+  <path d="M380 180 L420 212 L408 238 L448 268" stroke="#d85a30" stroke-width="3" fill="none" stroke-linejoin="round"/>
+  <text x="470" y="290" font-size="14" fill="#d85a30" text-anchor="middle">the crack that wants to happen</text>
+  <!-- mark the corner -->
+  <circle cx="380" cy="180" r="14" fill="none" stroke="#d85a30" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <text x="352" y="168" font-size="22" font-weight="bold" fill="#d85a30" text-anchor="end">?</text>
+  <text x="330" y="210" font-size="14" fill="#2c2a26" text-anchor="end">re-entrant (internal) corner</text>
+</svg>

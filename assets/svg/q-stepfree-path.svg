@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+  <rect width="700" height="300" fill="#eef7fb"/>
+  <rect x="0" y="210" width="700" height="90" fill="#c9a36b"/>
+  <!-- garage (left) and house (right) -->
+  <rect x="40" y="120" width="150" height="90" fill="#e7ddc8" stroke="#b3a488" stroke-width="2"/>
+  <text x="115" y="170" font-size="13" fill="#2c2a26" text-anchor="middle">garage</text>
+  <rect x="470" y="100" width="190" height="110" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <polygon points="460,100 670,100 565,60" fill="#c96f4a"/>
+  <rect x="545" y="150" width="40" height="60" fill="#8a6f4e"/>
+  <text x="565" y="140" font-size="12.5" fill="#2c2a26" text-anchor="middle">front door</text>
+  <!-- path -->
+  <rect x="190" y="196" width="280" height="14" fill="#d3d1c7"/>
+  <text x="330" y="246" font-size="14" fill="#2c2a26" text-anchor="middle">path from garage to door</text>
+  <text x="330" y="186" font-size="20" font-weight="bold" fill="#d85a30" text-anchor="middle">? type of path</text>
+</svg>

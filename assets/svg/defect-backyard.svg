@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="sans-serif">
+  <rect width="800" height="450" fill="#eef7fb"/>
+  <circle cx="730" cy="50" r="22" fill="#efb727"/>
+  <!-- ground under the house and right yard (base level) -->
+  <rect x="290" y="328" width="510" height="122" fill="#c9a36b"/>
+  <!-- ===== house ===== -->
+  <rect x="300" y="295" width="260" height="35" fill="#b9b6ad"/>
+  <rect x="300" y="185" width="260" height="110" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <polygon points="285,185 575,185 430,115" fill="#c96f4a"/>
+  <line x1="285" y1="185" x2="575" y2="185" stroke="#8f8c84" stroke-width="4"/>
+  <rect x="320" y="210" width="48" height="48" fill="#cfe8f0" stroke="#8aa6ad" stroke-width="2"/>
+  <line x1="344" y1="210" x2="344" y2="258" stroke="#8aa6ad" stroke-width="2"/>
+  <rect x="385" y="215" width="50" height="80" fill="#8a6f4e"/>
+  <circle cx="425" cy="257" r="3" fill="#f0e6d2"/>
+  <!-- meter box with durable notice inside (compliant) -->
+  <rect x="500" y="196" width="56" height="62" fill="#d3d1c7" stroke="#8f8c84" stroke-width="2"/>
+  <polygon points="528,202 519,220 527,220 522,236 535,215 527,215 534,202" fill="#efb727"/>
+  <rect x="506" y="226" width="44" height="26" fill="#ffffff" stroke="#8f8c84"/>
+  <line x1="511" y1="234" x2="545" y2="234" stroke="#8f8c84"/>
+  <line x1="511" y1="240" x2="538" y2="240" stroke="#8f8c84"/>
+  <line x1="511" y1="246" x2="542" y2="246" stroke="#8f8c84"/>
+  <!-- good downpipe: connected to underground stormwater (compliant) -->
+  <rect x="460" y="185" width="10" height="138" fill="#8f8c84"/>
+  <rect x="458" y="320" width="22" height="10" fill="#8f8c84"/>
+  <line x1="480" y1="336" x2="790" y2="348" stroke="#5f5e5a" stroke-width="6" stroke-dasharray="10 7"/>
+  <!-- ===== left yard: ground slopes TOWARD the house (defect) ===== -->
+  <polygon points="0,250 300,322 300,450 0,450" fill="#c9a36b"/>
+  <line x1="0" y1="250" x2="300" y2="322" stroke="#9bc97e" stroke-width="6"/>
+  <g stroke="#378add" stroke-width="2.5" fill="none">
+    <path d="M70 258 q30 9 60 16"/><path d="M160 280 q30 9 60 16"/>
+  </g>
+  <polygon points="136,278 122,266 138,267" fill="#378add"/>
+  <polygon points="226,300 212,288 228,289" fill="#378add"/>
+  <!-- bad downpipe: stops above the garden, splashing at the wall (defect) -->
+  <rect x="287" y="185" width="10" height="125" fill="#8f8c84"/>
+  <g fill="#378add">
+    <circle cx="285" cy="316" r="3"/><circle cx="296" cy="320" r="3"/><circle cx="290" cy="308" r="2.5"/>
+  </g>
+  <ellipse cx="291" cy="325" rx="16" ry="4" fill="#378add" opacity="0.55"/>
+  <!-- ===== right yard: garden bed piled up to the slab (defect) ===== -->
+  <polygon points="560,303 800,300 800,450 560,450" fill="#a8843f"/>
+  <g fill="#7c5f2c">
+    <circle cx="590" cy="310" r="3"/><circle cx="620" cy="306" r="3"/><circle cx="655" cy="311" r="3"/>
+    <circle cx="690" cy="306" r="3"/><circle cx="725" cy="310" r="3"/><circle cx="760" cy="306" r="3"/>
+  </g>
+  <g fill="#5a8a4a">
+    <circle cx="640" cy="290" r="14"/><circle cx="656" cy="282" r="12"/><circle cx="668" cy="293" r="11"/>
+  </g>
+  <rect x="652" y="298" width="6" height="10" fill="#5f5e5a"/>
+  <!-- fence at the boundary -->
+  <rect x="780" y="230" width="8" height="72" fill="#9b8a6d"/>
+  <rect x="770" y="236" width="28" height="6" fill="#9b8a6d"/>
+  <rect x="770" y="284" width="28" height="6" fill="#9b8a6d"/>
+</svg>

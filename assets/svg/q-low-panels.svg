@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+<defs><marker id="a2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 1 L8 4 L0 7 Z" fill="#d85a30"/></marker></defs>
+<rect width="700" height="300" fill="#eef7fb"/>
+<!-- room wall + floor -->
+<rect x="60" y="44" width="580" height="208" fill="#ece7da" stroke="#c9bfa8" stroke-width="1.5"/>
+<rect x="0" y="252" width="700" height="48" fill="#cdbf9e"/>
+<line x1="0" y1="252" x2="700" y2="252" stroke="#b3a488" stroke-width="2"/>
+<!-- floor-to-ceiling window: glass runs down close to the floor -->
+<rect x="288" y="54" width="150" height="162" fill="#cfe8f0" stroke="#5f5e5a" stroke-width="3"/>
+<line x1="363" y1="54" x2="363" y2="216" stroke="#8aa6ad" stroke-width="2"/>
+<text x="363" y="46" font-size="12.5" fill="#2c2a26" text-anchor="middle">floor-to-ceiling window</text>
+<!-- sight line = lowest edge of the glass (just above the floor) -->
+<line x1="160" y1="216" x2="438" y2="216" stroke="#0f6e56" stroke-width="2.5" stroke-dasharray="6 3"/>
+<text x="160" y="208" font-size="11" fill="#0f6e56">sight line = lowest edge of the glass</text>
+<!-- the one dimension: floor up to that sight line -->
+<line x1="250" y1="252" x2="250" y2="216" stroke="#d85a30" stroke-width="1.5" marker-start="url(#a2)" marker-end="url(#a2)"/>
+<line x1="244" y1="252" x2="256" y2="252" stroke="#d85a30" stroke-width="1.5"/>
+<line x1="244" y1="216" x2="256" y2="216" stroke="#d85a30" stroke-width="1.5"/>
+<text x="240" y="240" font-size="16" font-weight="bold" fill="#d85a30" text-anchor="end">?</text>
+<text x="350" y="286" font-size="12.5" fill="#2c2a26" text-anchor="middle">Below what sight-line height above the floor must this glass be safety glass?</text>
+</svg>

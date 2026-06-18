@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+  <rect width="700" height="320" fill="#eef7fb"/>
+  <!-- ground -->
+  <rect x="0" y="140" width="700" height="180" fill="#c9a36b"/>
+  <!-- stiffened raft: slab + edge beams + internal beam, one pour -->
+  <path d="M70 120 L630 120 L630 250 L560 250 L560 160 L385 160 L385 250 L315 250 L315 160 L140 160 L140 250 L70 250 Z" fill="#b9b6ad" stroke="#8f8c84" stroke-width="2"/>
+  <text x="350" y="112" font-size="15" fill="#2c2a26" text-anchor="middle">slab on top — beams below, all poured as one</text>
+  <text x="105" y="290" font-size="13" fill="#f5f3ee" text-anchor="middle">edge beam</text>
+  <text x="350" y="290" font-size="13" fill="#f5f3ee" text-anchor="middle">internal beam</text>
+  <text x="595" y="290" font-size="13" fill="#f5f3ee" text-anchor="middle">edge beam</text>
+  <!-- wall stub on top, to hint at wall type mattering -->
+  <rect x="70" y="60" width="70" height="60" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <text x="105" y="50" font-size="13" fill="#6b675f" text-anchor="middle">wall</text>
+  <!-- beam depth dimension -->
+  <line x1="44" y1="120" x2="44" y2="250" stroke="#d85a30" stroke-width="2"/>
+  <line x1="36" y1="120" x2="52" y2="120" stroke="#d85a30" stroke-width="2"/>
+  <line x1="36" y1="250" x2="52" y2="250" stroke="#d85a30" stroke-width="2"/>
+  <text x="30" y="178" font-size="20" font-weight="bold" fill="#d85a30" text-anchor="end">?</text>
+  <text x="30" y="198" font-size="13" fill="#d85a30" text-anchor="end">beam depth</text>
+</svg>

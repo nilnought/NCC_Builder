@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" font-family="sans-serif">
+<defs><marker id="rn" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#2f9bd6"/></marker></defs>
+<rect width="700" height="340" fill="#eef7fb"/>
+<text x="350" y="26" font-size="15" fill="#2c2a26" text-anchor="middle">Two sheets of sarking meet under the battens — how big is the overlap?</text>
+<text x="350" y="45" font-size="11.5" fill="#6b675f" text-anchor="middle">section through a SLOPING tiled roof · ridge up at the left, gutter down at the right</text>
+
+<g transform="rotate(14 350 195)">
+  <!-- rafter (timber), the bottom layer -->
+  <rect x="90" y="206" width="520" height="26" fill="#c9a06a" stroke="#a07d4e" stroke-width="1.5"/>
+  <!-- sarking: lower/right sheet first, then upper/left sheet laps OVER it -->
+  <rect x="320" y="196" width="290" height="7" fill="#b9c2c8" stroke="#8a949b" stroke-width="0.8"/>
+  <rect x="90"  y="192" width="265" height="7" fill="#cdd5da" stroke="#8a949b" stroke-width="0.8"/>
+  <!-- the sarking lap (overlap zone) -->
+  <rect x="320" y="192" width="40" height="8" fill="#ffd27a" stroke="#d8932a" stroke-width="1"/>
+  <line x1="320" y1="178" x2="360" y2="178" stroke="#b9701a" stroke-width="1.2"/>
+  <line x1="320" y1="173" x2="320" y2="192" stroke="#b9701a" stroke-width="1.2"/>
+  <line x1="360" y1="173" x2="360" y2="192" stroke="#b9701a" stroke-width="1.2"/>
+  <text x="340" y="170" font-size="18" fill="#b9701a" text-anchor="middle">?</text>
+  <text x="340" y="262" font-size="12" fill="#b9701a" text-anchor="middle">sarking overlap = ?</text>
+  <line x1="340" y1="200" x2="340" y2="250" stroke="#b9701a" stroke-width="1" stroke-dasharray="4 3"/>
+  <!-- battens sit ON TOP of the sarking -->
+  <rect x="160" y="172" width="16" height="20" fill="#9a7b4f" stroke="#6f562f" stroke-width="1"/>
+  <rect x="470" y="172" width="16" height="20" fill="#9a7b4f" stroke="#6f562f" stroke-width="1"/>
+  <!-- tiles overlap on top of the battens -->
+  <path d="M90 172 q45 -26 90 0 q45 -26 90 0 q45 -26 90 0 q45 -26 90 0 q45 -26 90 0 q45 -26 70 0"
+        fill="#c96f4a" stroke="#9a4f30" stroke-width="2"/>
+  <!-- rain runs down the slope -->
+  <line x1="190" y1="132" x2="470" y2="132" stroke="#2f9bd6" stroke-width="2.5" marker-end="url(#rn)"/>
+  <text x="300" y="126" font-size="11" fill="#2f9bd6" text-anchor="middle">rain runs down</text>
+  <!-- ridge / gutter ends -->
+  <text x="84" y="166" font-size="11" fill="#6b675f" text-anchor="end">ridge</text>
+  <text x="624" y="244" font-size="11" fill="#6b675f">to gutter</text>
+  <!-- layer labels -->
+  <g font-size="12" fill="#2c2a26">
+    <line x1="606" y1="158" x2="624" y2="156" stroke="#6b675f" stroke-width="1"/><text x="628" y="160">tile</text>
+    <line x1="486" y1="182" x2="624" y2="184" stroke="#6b675f" stroke-width="1"/><text x="628" y="188">batten</text>
+    <line x1="606" y1="199" x2="624" y2="201" stroke="#6b675f" stroke-width="1"/><text x="628" y="205">sarking</text>
+    <line x1="606" y1="219" x2="624" y2="223" stroke="#6b675f" stroke-width="1"/><text x="628" y="227">rafter</text>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 660" font-family="sans-serif">
+  <defs>
+    <pattern id="zinc" width="34" height="12" patternUnits="userSpaceOnUse">
+      <rect width="34" height="12" fill="#c6d0d6"/>
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#a4b0b7" stroke-width="2"/>
+    </pattern>
+    <marker id="ld" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#2c2a26"/></marker>
+    <marker id="wt" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#2f9bd6"/></marker>
+  </defs>
+  <rect width="800" height="660" fill="#eef7fb"/>
+  <text x="400" y="24" font-size="14.5" fill="#2c2a26" text-anchor="middle">Roof inspection — find the problems. Two metal slopes meet at the valley.</text>
+
+  <!-- ===== main roof (face-on) ===== -->
+  <rect x="55" y="90" width="690" height="12" fill="#8f9ea7"/>
+  <text x="250" y="84" font-size="12.5" fill="#6b675f" text-anchor="middle">ridge</text>
+  <rect x="55" y="102" width="690" height="240" fill="url(#zinc)" stroke="#7d8b94" stroke-width="2"/>
+  <text x="95" y="128" font-size="12" fill="#2c2a26">zincalume sheet roof</text>
+  <text x="95" y="142" font-size="9.5" fill="#6b675f">(bright zinc/aluminium-coated steel)</text>
+
+  <!-- second plane + bold valley -->
+  <polygon points="548,102 745,102 745,342 652,342" fill="#aeb9c1" stroke="#7d8b94" stroke-width="1.5"/>
+  <text x="700" y="175" font-size="12" fill="#5f6c74" text-anchor="middle">2nd slope</text>
+  <polygon points="540,102 556,102 660,342 644,342" fill="#5f6c74" stroke="#46525a" stroke-width="1.5"/>
+  <line x1="548" y1="102" x2="652" y2="342" stroke="#86939b" stroke-width="1.2"/>
+  <text x="612" y="240" font-size="13" fill="#2c2a26" text-anchor="middle" transform="rotate(66 612 240)">valley (two slopes meet)</text>
+
+  <!-- chimney with a LEAD apron flashing at its base (dull grey, distinct from the bright roof) -->
+  <rect x="174" y="160" width="82" height="8" fill="#8f9ea7"/>
+  <rect x="180" y="168" width="70" height="58" fill="#b0664a" stroke="#8a4327" stroke-width="1.5"/>
+  <g stroke="#8a4327" stroke-width="1"><line x1="180" y1="188" x2="250" y2="188"/><line x1="180" y1="208" x2="250" y2="208"/><line x1="215" y1="168" x2="215" y2="188"/><line x1="197" y1="188" x2="197" y2="208"/><line x1="233" y1="188" x2="233" y2="208"/></g>
+  <text x="290" y="192" font-size="12" fill="#2c2a26">chimney</text>
+  <line x1="288" y1="188" x2="252" y2="192" stroke="#2c2a26" stroke-width="0.9" marker-end="url(#ld)"/>
+  <!-- lead apron flashing lapping the roof at the chimney's downhill base -->
+  <path d="M166 226 L264 226 L252 252 L178 252 Z" fill="#8b929b" stroke="#6b7178" stroke-width="1.2"/>
+  <text x="215" y="270" font-size="12" fill="#2c2a26" text-anchor="middle">lead apron flashing</text>
+  <text x="215" y="283" font-size="9.5" fill="#6b675f" text-anchor="middle">(dull grey metal, at the chimney base)</text>
+
+  <!-- eaves gutter line + downpipe at the valley foot -->
+  <rect x="50" y="342" width="612" height="13" fill="#6f7d86" stroke="#566169" stroke-width="1"/>
+  <text x="44" y="352" font-size="11.5" fill="#2c2a26" text-anchor="end">gutter</text>
+  <rect x="636" y="355" width="22" height="95" fill="#5f5e5a" stroke="#3f3e3b" stroke-width="1"/>
+  <text x="706" y="402" font-size="12" fill="#2c2a26">downpipe</text>
+  <line x1="704" y1="398" x2="660" y2="396" stroke="#2c2a26" stroke-width="1" marker-end="url(#ld)"/>
+
+  <!-- ===== detail 1: eaves — does the sheet reach the gutter? ===== -->
+  <rect x="30" y="460" width="242" height="186" fill="#ffffff" stroke="#5f5e5a" stroke-width="2"/>
+  <text x="151" y="480" font-size="11.5" fill="#2c2a26" text-anchor="middle">eaves detail (cut-away)</text>
+  <!-- roof sheet sloping down to the eaves, ending AT the fascia (flush) -->
+  <polygon points="48,520 178,560 178,572 48,532" fill="#b8c4cc" stroke="#93a3ad" stroke-width="1"/>
+  <!-- fascia (vertical board) -->
+  <rect x="178" y="556" width="14" height="74" fill="#8a6f4e" stroke="#5e4a30" stroke-width="1.2"/>
+  <!-- gutter hanging off the FRONT face of the fascia -->
+  <path d="M192 578 L192 618 L248 618 L248 582" fill="none" stroke="#6f7d86" stroke-width="5"/>
+  <!-- rainwater curls back and runs down the fascia, missing the gutter -->
+  <path d="M176 566 q-6 22 6 40 q4 8 3 18" fill="none" stroke="#2f9bd6" stroke-width="2.5" marker-end="url(#wt)"/>
+  <text x="58" y="506" font-size="10" fill="#2c2a26">roof sheet —</text>
+  <text x="58" y="518" font-size="10" fill="#2c2a26">ends flush with the fascia</text>
+  <line x1="120" y1="521" x2="178" y2="558" stroke="#2c2a26" stroke-width="0.9" marker-end="url(#ld)"/>
+  <text x="150" y="642" font-size="10.5" fill="#2c2a26" text-anchor="end">fascia</text>
+  <line x1="154" y1="639" x2="182" y2="620" stroke="#2c2a26" stroke-width="0.9"/>
+  <text x="252" y="610" font-size="10.5" fill="#2c2a26">gutter</text>
+  <line x1="250" y1="606" x2="232" y2="600" stroke="#2c2a26" stroke-width="0.9"/>
+
+  <!-- ===== detail 2: the fixings — crest or valley? ===== -->
+  <rect x="284" y="460" width="242" height="186" fill="#ffffff" stroke="#5f5e5a" stroke-width="2"/>
+  <text x="405" y="480" font-size="11.5" fill="#2c2a26" text-anchor="middle">fixing detail (sheet cut end-on)</text>
+  <!-- batten the screws bite into -->
+  <rect x="300" y="556" width="210" height="16" fill="#c9a06a" stroke="#a07d4e" stroke-width="1"/>
+  <!-- corrugation profile: crests up, valleys down -->
+  <path d="M310 548 q22 -40 44 0 q22 -40 44 0 q22 -40 44 0 q22 -40 44 0" fill="none" stroke="#7d8b94" stroke-width="5"/>
+  <!-- screws driven through the VALLEYS (the troughs) -->
+  <g stroke="#2c2a26" stroke-width="2.5"><line x1="354" y1="536" x2="354" y2="566"/><line x1="398" y1="536" x2="398" y2="566"/><line x1="442" y1="536" x2="442" y2="566"/></g>
+  <g fill="#2c2a26"><circle cx="354" cy="534" r="3.5"/><circle cx="398" cy="534" r="3.5"/><circle cx="442" cy="534" r="3.5"/></g>
+  <text x="332" y="512" font-size="10.5" fill="#0f6e56" text-anchor="middle">crest</text>
+  <line x1="332" y1="516" x2="332" y2="528" stroke="#0f6e56" stroke-width="0.9" marker-end="url(#ld)"/>
+  <text x="470" y="600" font-size="10.5" fill="#993c1d" text-anchor="middle">valley</text>
+  <line x1="464" y1="596" x2="442" y2="556" stroke="#993c1d" stroke-width="0.9" marker-end="url(#ld)"/>
+  <text x="405" y="632" font-size="10" fill="#6b675f" text-anchor="middle">where did the screws land?</text>
+
+  <!-- ===== detail 3: gutter back-gap ===== -->
+  <rect x="538" y="460" width="240" height="186" fill="#ffffff" stroke="#5f5e5a" stroke-width="2"/>
+  <text x="658" y="480" font-size="11.5" fill="#2c2a26" text-anchor="middle">gutter detail (cut-away)</text>
+  <rect x="690" y="512" width="13" height="92" fill="#8a6f4e" stroke="#5e4a30" stroke-width="1"/>
+  <path d="M668 536 L668 596 L598 596 L598 544" fill="none" stroke="#6f7d86" stroke-width="5"/>
+  <rect x="670" y="542" width="20" height="8" fill="#b5bdc3" stroke="#7d8b94" stroke-width="0.7"/>
+  <line x1="668" y1="526" x2="690" y2="526" stroke="#993c1d" stroke-width="1.2"/>
+  <text x="664" y="520" font-size="11" fill="#993c1d" text-anchor="end">back gap</text>
+  <text x="726" y="556" font-size="10.5" fill="#2c2a26">fascia</text>
+  <line x1="724" y1="553" x2="704" y2="548" stroke="#2c2a26" stroke-width="0.9"/>
+</svg>

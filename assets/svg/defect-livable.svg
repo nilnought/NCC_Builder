@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="sans-serif">
+  <rect width="800" height="450" fill="#eef7fb"/>
+  <rect x="0" y="360" width="800" height="90" fill="#c9a36b"/>
+  <!-- two-storey house cutaway -->
+  <rect x="180" y="120" width="600" height="240" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <rect x="180" y="236" width="600" height="6" fill="#d8cbb4"/>
+  <polygon points="170,120 790,120 480,60" fill="#c96f4a"/>
+  <text x="250" y="200" font-size="11" fill="#6b675f">upper level</text>
+  <text x="250" y="320" font-size="11" fill="#6b675f">ground / entry level</text>
+
+  <!-- garage far left + path to entrance -->
+  <rect x="40" y="250" width="110" height="110" fill="#e7ddc8" stroke="#b3a488" stroke-width="2"/>
+  <text x="95" y="300" font-size="11" fill="#2c2a26" text-anchor="middle">garage</text>
+  <!-- (1) path from the garage with a STEP in it (defect), sitting on the ground -->
+  <rect x="56" y="348" width="74" height="12" fill="#d3d1c7" stroke="#b3b0a6" stroke-width="1"/>
+  <rect x="130" y="336" width="86" height="24" fill="#d3d1c7" stroke="#b3b0a6" stroke-width="1"/>
+  <line x1="130" y1="336" x2="130" y2="348" stroke="#993c1d" stroke-width="3"/>
+  <text x="108" y="328" font-size="10.5" fill="#993c1d" text-anchor="middle">a step in the path</text>
+
+  <!-- (4) step-free entrance door (OK) — level threshold, no step -->
+  <rect x="216" y="286" width="34" height="74" fill="#8a6f4e"/>
+  <text x="233" y="278" font-size="10.5" fill="#0f6e56" text-anchor="middle">step-free door</text>
+  <text x="233" y="378" font-size="9" fill="#0f6e56" text-anchor="middle">(level threshold)</text>
+
+  <!-- (2) narrow internal doorway (defect) centre ~360,275 -->
+  <rect x="346" y="250" width="8" height="100" fill="#8a6f4e"/>
+  <rect x="372" y="250" width="8" height="100" fill="#8a6f4e"/>
+  <line x1="354" y1="345" x2="372" y2="345" stroke="#d85a30" stroke-width="2"/>
+  <text x="363" y="240" font-size="10.5" fill="#993c1d" text-anchor="middle">narrow door</text>
+
+  <!-- (3) only toilet is upstairs (defect) centre ~616,171 -->
+  <ellipse cx="616" cy="180" rx="16" ry="10" fill="#ffffff" stroke="#8f8c84" stroke-width="2"/>
+  <rect x="610" y="150" width="12" height="22" fill="#ffffff" stroke="#8f8c84" stroke-width="2"/>
+  <text x="616" y="210" font-size="10.5" fill="#993c1d" text-anchor="middle">only toilet — upstairs</text>
+
+  <!-- (5) ground shower walls reinforced (OK) centre ~723,293 -->
+  <rect x="690" y="250" width="70" height="105" fill="#dfeaee" stroke="#9fb9c0" stroke-width="2"/>
+  <rect x="690" y="290" width="70" height="14" fill="#1d9e75"/>
+  <text x="725" y="242" font-size="10.5" fill="#0f6e56" text-anchor="middle">shower: walls reinforced</text>
+</svg>

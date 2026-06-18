@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+<rect width="700" height="320" fill="#eef7fb"/>
+<!-- truss -->
+<polygon points="120,150 580,150 350,60" fill="none" stroke="#8a6f4e" stroke-width="6"/>
+<line x1="120" y1="150" x2="580" y2="150" stroke="#8a6f4e" stroke-width="6"/>
+<line x1="350" y1="60" x2="240" y2="150" stroke="#8a6f4e" stroke-width="3"/>
+<line x1="350" y1="60" x2="460" y2="150" stroke="#8a6f4e" stroke-width="3"/>
+<text x="350" y="110" font-size="13" fill="#6b675f" text-anchor="middle">roof truss</text>
+<!-- masonry wall (cut section) under the left end of the truss -->
+<rect x="150" y="150" width="120" height="150" fill="#cd7d58"/>
+<g stroke="#a8512f" stroke-width="1.5"><line x1="150" y1="186" x2="270" y2="186"/><line x1="150" y1="222" x2="270" y2="222"/><line x1="150" y1="258" x2="270" y2="258"/></g>
+<text x="300" y="240" font-size="13" fill="#2c2a26">masonry wall</text>
+<!-- galvanised strap from truss down into the wall, looped around a rod -->
+<path d="M210 150 L210 250" stroke="#5f5e5a" stroke-width="5" fill="none"/>
+<path d="M210 250 q-8 12 4 16 q12 4 8 -8" stroke="#5f5e5a" stroke-width="4" fill="none"/>
+<circle cx="218" cy="256" r="5" fill="none" stroke="#2c2a26" stroke-width="3"/>
+<text x="120" y="200" font-size="12" fill="#2c2a26" text-anchor="end">strap</text>
+<line x1="124" y1="196" x2="206" y2="196" stroke="#5f5e5a" stroke-width="1"/>
+<text x="300" y="262" font-size="11.5" fill="#2c2a26">rod built across the wall</text>
+<!-- depth-below-top dimension -->
+<line x1="120" y1="150" x2="120" y2="256" stroke="#d85a30" stroke-width="2"/>
+<line x1="112" y1="150" x2="128" y2="150" stroke="#d85a30" stroke-width="2"/>
+<line x1="112" y1="256" x2="128" y2="256" stroke="#d85a30" stroke-width="2"/>
+<text x="106" y="206" font-size="16" font-weight="bold" fill="#d85a30" text-anchor="end">?</text>
+<text x="350" y="312" font-size="13" fill="#2c2a26" text-anchor="middle">how far below the top of the wall must the strap anchor?</text>
+</svg>

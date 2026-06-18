@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+  <rect width="700" height="300" fill="#eef7fb"/>
+  <text x="350" y="32" font-size="14" fill="#6b675f" text-anchor="middle">same house, two climates — same insulation?</text>
+  <!-- cold climate house (left) -->
+  <rect x="70" y="120" width="200" height="120" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <polygon points="60,120 280,120 170,70" fill="#7fa8c9"/>
+  <rect x="70" y="108" width="200" height="14" fill="#cde3f0"/>
+  <text x="170" y="190" font-size="14" fill="#2c2a26" text-anchor="middle">cold zone</text>
+  <g stroke="#378add" stroke-width="2" stroke-linecap="round">
+    <line x1="100" y1="55" x2="94" y2="68"/><line x1="130" y1="52" x2="124" y2="65"/><line x1="160" y1="55" x2="154" y2="68"/>
+  </g>
+  <text x="170" y="262" font-size="16" font-weight="bold" fill="#d85a30" text-anchor="middle">R-Value ?</text>
+  <!-- hot climate house (right) -->
+  <rect x="430" y="120" width="200" height="120" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <polygon points="420,120 640,120 530,70" fill="#e0a96a"/>
+  <rect x="430" y="108" width="200" height="14" fill="#f6d9a8"/>
+  <text x="530" y="190" font-size="14" fill="#2c2a26" text-anchor="middle">hot zone</text>
+  <circle cx="600" cy="56" r="14" fill="#efb727"/>
+  <g stroke="#efb727" stroke-width="2"><line x1="600" y1="34" x2="600" y2="40"/><line x1="578" y1="56" x2="584" y2="56"/></g>
+  <text x="530" y="262" font-size="16" font-weight="bold" fill="#d85a30" text-anchor="middle">R-Value ?</text>
+</svg>

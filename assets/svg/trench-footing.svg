@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+  <rect width="700" height="320" fill="#eef7fb"/>
+  <!-- wall stub on its footing -->
+  <rect x="80" y="20" width="90" height="120" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <text x="125" y="85" font-size="15" fill="#2c2a26" text-anchor="middle">wall</text>
+  <rect x="60" y="140" width="130" height="50" fill="#b9b6ad"/>
+  <text x="125" y="170" font-size="15" fill="#3d3b36" text-anchor="middle">footing</text>
+  <!-- ground -->
+  <polygon points="0,140 60,140 60,190 190,190 190,140 700,140 700,320 0,320" fill="#c9a36b"/>
+  <line x1="190" y1="140" x2="700" y2="140" stroke="#9bc97e" stroke-width="5"/>
+  <line x1="0" y1="140" x2="60" y2="140" stroke="#9bc97e" stroke-width="5"/>
+  <!-- proposed trench, dashed -->
+  <g stroke="#d85a30" stroke-width="2.5" stroke-dasharray="8 6" fill="none">
+    <rect x="300" y="140" width="110" height="120"/>
+  </g>
+  <circle cx="355" cy="225" r="22" fill="none" stroke="#8f8c84" stroke-width="3"/>
+  <text x="355" y="180" font-size="15" fill="#d85a30" text-anchor="middle">planned trench</text>
+  <!-- the question: how close / how deep? -->
+  <line x1="190" y1="205" x2="300" y2="205" stroke="#d85a30" stroke-width="2"/>
+  <polygon points="190,205 202,199 202,211" fill="#d85a30"/>
+  <polygon points="300,205 288,199 288,211" fill="#d85a30"/>
+  <text x="245" y="195" font-size="20" font-weight="bold" fill="#d85a30" text-anchor="middle">?</text>
+  <text x="500" y="290" font-size="15" fill="#2c2a26" text-anchor="middle">how close — and how deep — is safe to dig?</text>
+</svg>

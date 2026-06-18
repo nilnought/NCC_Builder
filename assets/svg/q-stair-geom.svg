@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+  <rect width="700" height="320" fill="#eef7fb"/>
+  <!-- staircase side profile -->
+  <polygon points="120,280 120,230 240,230 240,180 360,180 360,130 480,130 480,80 560,80 560,280" fill="#d9c9a8" stroke="#8a6f4e" stroke-width="2"/>
+  <!-- nosing line: runs through the front edges (nosings) of the treads -->
+  <line x1="120" y1="230" x2="520" y2="63" stroke="#6b675f" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="524" y="62" font-size="10.5" fill="#6b675f">nosing line</text>
+  <text x="250" y="300" font-size="13" fill="#6b675f" text-anchor="middle">stair, side view</text>
+  <!-- one riser highlighted -->
+  <line x1="360" y1="180" x2="360" y2="130" stroke="#d85a30" stroke-width="3"/>
+  <text x="372" y="158" font-size="15" font-weight="bold" fill="#d85a30">R</text>
+  <text x="372" y="176" font-size="11.5" fill="#d85a30">riser</text>
+  <!-- one going highlighted -->
+  <line x1="360" y1="130" x2="480" y2="130" stroke="#1d9e75" stroke-width="3"/>
+  <text x="420" y="122" font-size="15" font-weight="bold" fill="#0f6e56" text-anchor="middle">G</text>
+  <text x="420" y="110" font-size="11.5" fill="#0f6e56" text-anchor="middle">going</text>
+  <!-- formula prompt -->
+  <text x="350" y="40" font-size="15" fill="#2c2a26" text-anchor="middle">what are the limits on R, G and 2R + G?</text>
+</svg>

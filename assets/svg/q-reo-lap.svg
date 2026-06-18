@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" font-family="sans-serif">
+  <rect width="700" height="280" fill="#eef7fb"/>
+  <!-- trench in section along its length -->
+  <rect x="0" y="60" width="700" height="220" fill="#c9a36b"/>
+  <rect x="40" y="90" width="620" height="150" fill="#a8843f"/>
+  <text x="350" y="80" font-size="14" fill="#2c2a26" text-anchor="middle">a footing trench seen from the side — it runs left to right, and two lengths of mesh meet</text>
+  <!-- two lengths of trench mesh, overlapping in the middle -->
+  <g stroke="#3d3b36" stroke-width="4">
+    <line x1="60" y1="180" x2="420" y2="180"/>
+    <line x1="290" y1="196" x2="640" y2="196"/>
+  </g>
+  <g stroke="#3d3b36" stroke-width="2">
+    <line x1="90" y1="172" x2="90" y2="188"/><line x1="160" y1="172" x2="160" y2="188"/>
+    <line x1="230" y1="172" x2="230" y2="188"/><line x1="300" y1="172" x2="300" y2="188"/>
+    <line x1="370" y1="172" x2="370" y2="188"/>
+    <line x1="330" y1="188" x2="330" y2="204"/><line x1="400" y1="188" x2="400" y2="204"/>
+    <line x1="470" y1="188" x2="470" y2="204"/><line x1="540" y1="188" x2="540" y2="204"/>
+    <line x1="610" y1="188" x2="610" y2="204"/>
+  </g>
+  <text x="170" y="160" font-size="14" fill="#f5f3ee">trench mesh, length 1</text>
+  <text x="470" y="226" font-size="14" fill="#f5f3ee">trench mesh, length 2</text>
+  <!-- overlap dimension -->
+  <line x1="290" y1="132" x2="420" y2="132" stroke="#d85a30" stroke-width="2"/>
+  <line x1="290" y1="124" x2="290" y2="140" stroke="#d85a30" stroke-width="2"/>
+  <line x1="420" y1="124" x2="420" y2="140" stroke="#d85a30" stroke-width="2"/>
+  <line x1="290" y1="140" x2="290" y2="172" stroke="#d85a30" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="420" y1="140" x2="420" y2="172" stroke="#d85a30" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="355" y="122" font-size="20" font-weight="bold" fill="#d85a30" text-anchor="middle">? mm overlap</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240" font-family="sans-serif">
+<rect width="700" height="240" fill="#eef7fb"/>
+<text x="350" y="34" font-size="15" fill="#2c2a26" text-anchor="middle">Corrugated sheet, cut through end-on — where should the fixing screw go?</text>
+<text x="350" y="54" font-size="11.5" fill="#6b675f" text-anchor="middle">(side-on section; the high ribs are crests, the low channels are valleys)</text>
+<!-- corrugated profile -->
+<path d="M60 150 q30 -60 60 0 q30 -60 60 0 q30 -60 60 0 q30 -60 60 0 q30 -60 60 0 q30 -60 60 0 q30 -60 60 0" fill="none" stroke="#9aa7b0" stroke-width="6"/>
+<!-- crest candidate: marker sits ON a high rib -->
+<circle cx="150" cy="119" r="6" fill="#1d9e75"/>
+<text x="150" y="105" font-size="20" fill="#1d9e75" text-anchor="middle">?</text>
+<text x="150" y="91" font-size="13" fill="#0f6e56" text-anchor="middle">crest (high rib)</text>
+<!-- valley candidate: marker sits IN a low channel -->
+<circle cx="180" cy="150" r="6" fill="#d85a30"/>
+<text x="180" y="178" font-size="20" fill="#d85a30" text-anchor="middle">?</text>
+<text x="180" y="200" font-size="13" fill="#993c1d" text-anchor="middle">valley (low channel)</text>
+</svg>

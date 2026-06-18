@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+<defs>
+  <pattern id="brk" width="44" height="20" patternUnits="userSpaceOnUse">
+    <rect width="44" height="20" fill="#cd7d58"/>
+    <g stroke="#a8512f" stroke-width="1.5"><line x1="0" y1="10" x2="44" y2="10"/><line x1="0" y1="20" x2="44" y2="20"/><line x1="22" y1="0" x2="22" y2="10"/><line x1="0" y1="10" x2="0" y2="20"/></g>
+  </pattern>
+  <marker id="ar" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M0 1 L9 4.5 L0 8 Z" fill="#d85a30"/></marker>
+</defs>
+<rect width="700" height="300" fill="#eef7fb"/>
+<text x="350" y="26" font-size="15" fill="#2c2a26" text-anchor="middle">A carport roof on free-standing brick piers — what are the size, height &amp; spacing limits?</text>
+
+<!-- ground -->
+<rect x="0" y="250" width="700" height="50" fill="#c9a36b"/>
+<!-- carport roof -->
+<polygon points="70,96 630,96 660,78 100,78" fill="#c96f4a"/>
+<rect x="70" y="96" width="560" height="14" fill="#a8512f"/>
+<text x="360" y="90" font-size="12.5" fill="#fff" text-anchor="middle">carport roof (part of / attached to the house)</text>
+
+<!-- three free-standing piers -->
+<rect x="120" y="110" width="36" height="140" fill="url(#brk)" stroke="#8a4327" stroke-width="1.5"/>
+<rect x="332" y="110" width="36" height="140" fill="url(#brk)" stroke="#8a4327" stroke-width="1.5"/>
+<rect x="544" y="110" width="36" height="140" fill="url(#brk)" stroke="#8a4327" stroke-width="1.5"/>
+<text x="138" y="276" font-size="11" fill="#2c2a26" text-anchor="middle">brick pier</text>
+
+<!-- height dimension (left of pier 1) -->
+<line x1="96" y1="110" x2="96" y2="250" stroke="#d85a30" stroke-width="1.5" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="80" y="184" font-size="15" font-weight="bold" fill="#d85a30" text-anchor="middle">?</text>
+<text x="80" y="200" font-size="10.5" fill="#d85a30" text-anchor="middle">height</text>
+
+<!-- spacing dimension (between piers 1 and 2) -->
+<line x1="156" y1="230" x2="332" y2="230" stroke="#d85a30" stroke-width="1.5" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="244" y="222" font-size="15" font-weight="bold" fill="#d85a30" text-anchor="middle">?</text>
+<text x="244" y="246" font-size="10.5" fill="#d85a30" text-anchor="middle">spacing (centres)</text>
+
+<!-- section dimension (width of pier 3) -->
+<line x1="544" y1="128" x2="580" y2="128" stroke="#d85a30" stroke-width="1.5" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text x="562" y="148" font-size="14" font-weight="bold" fill="#d85a30" text-anchor="middle">?</text>
+<text x="610" y="132" font-size="10.5" fill="#d85a30">section</text>
+</svg>

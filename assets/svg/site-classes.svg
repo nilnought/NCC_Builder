@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 210" font-family="sans-serif">
+  <rect width="700" height="210" fill="#eef7fb"/>
+  <!-- class boxes: stable (green) to problem (red); deliberately unlabeled
+       so the diagram poses the question without answering it -->
+  <g font-size="26" font-weight="bold" text-anchor="middle">
+    <rect x="30"  y="60" width="90" height="64" rx="8" fill="#9bc97e"/><text x="75"  y="102" fill="#2c4a1c">A</text>
+    <rect x="130" y="60" width="90" height="64" rx="8" fill="#c4d98a"/><text x="175" y="102" fill="#3d4a1c">S</text>
+    <rect x="230" y="60" width="90" height="64" rx="8" fill="#efd07a"/><text x="275" y="102" fill="#5a431a">M</text>
+    <rect x="350" y="60" width="90" height="64" rx="8" fill="#eda65a"/><text x="395" y="102" fill="#5d3514">H</text>
+    <rect x="450" y="60" width="90" height="64" rx="8" fill="#e07b4f"/><text x="495" y="102" fill="#4f220c">E</text>
+    <rect x="550" y="60" width="120" height="64" rx="8" fill="#d85a5a"/><text x="610" y="102" fill="#4a0f0f">P</text>
+  </g>
+  <!-- movement arrow -->
+  <line x1="40" y1="40" x2="640" y2="40" stroke="#6b675f" stroke-width="2.5"/>
+  <polygon points="660,40 638,32 638,48" fill="#6b675f"/>
+  <text x="350" y="28" font-size="15" fill="#2c2a26" text-anchor="middle">ground movement from moisture changes increases</text>
+  <!-- the HP boundary -->
+  <line x1="335" y1="52" x2="335" y2="150" stroke="#d85a30" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="180" y="150" font-size="14" fill="#0f6e56" text-anchor="middle">Housing Provisions recipes apply</text>
+  <text x="505" y="150" font-size="14" fill="#993c1d" text-anchor="middle">beyond the recipes — engineer + AS 2870</text>
+  <text x="350" y="185" font-size="14" fill="#6b675f" text-anchor="middle">site classes, per the soil report (AS 2870)</text>
+</svg>

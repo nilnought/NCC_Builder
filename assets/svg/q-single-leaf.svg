@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240" font-family="sans-serif">
+<rect width="700" height="240" fill="#eef7fb"/>
+<rect x="100" y="60" width="500" height="120" fill="#cd7d58"/>
+<g stroke="#a8512f" stroke-width="1.5"><line x1="100" y1="100" x2="600" y2="100"/><line x1="100" y1="140" x2="600" y2="140"/></g>
+<rect x="180" y="40" width="50" height="160" fill="#b8553a"/>
+<rect x="450" y="40" width="50" height="160" fill="#b8553a"/>
+<text x="205" y="30" font-size="11.5" fill="#993c1d" text-anchor="middle">pier</text>
+<text x="475" y="30" font-size="11.5" fill="#993c1d" text-anchor="middle">pier</text>
+<text x="350" y="130" font-size="13" fill="#fff" text-anchor="middle">single 90 mm leaf</text>
+<text x="350" y="225" font-size="13" fill="#d85a30" text-anchor="middle">one thin skin — what holds it up?</text>
+</svg>

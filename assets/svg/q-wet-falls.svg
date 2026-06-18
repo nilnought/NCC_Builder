@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" font-family="sans-serif">
+<rect width="700" height="280" fill="#eef7fb"/>
+<polygon points="60,120 350,170 640,120 640,210 60,210" fill="#cdbf9e" stroke="#b3a488" stroke-width="2"/>
+<rect x="335" y="166" width="30" height="10" fill="#8f8c84"/>
+<text x="350" y="200" font-size="12.5" fill="#2c2a26" text-anchor="middle">floor waste</text>
+<g stroke="#378add" stroke-width="2.5" fill="none"><path d="M150 128 q40 14 80 20"/><path d="M550 128 q-40 14 -80 20"/></g>
+<polygon points="232,150 220,140 235,139" fill="#378add"/><polygon points="468,150 480,140 465,139" fill="#378add"/>
+<text x="350" y="60" font-size="15" fill="#2c2a26" text-anchor="middle">the floor falls toward the drain</text>
+<text x="350" y="90" font-size="14" fill="#d85a30" text-anchor="middle">? minimum and maximum fall</text>
+</svg>

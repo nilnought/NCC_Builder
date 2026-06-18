@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" font-family="sans-serif">
+  <rect width="700" height="360" fill="#eef7fb"/>
+  <!-- floor bearer the stump supports -->
+  <rect x="240" y="30" width="220" height="18" fill="#8a6f4e"/>
+  <text x="350" y="22" font-size="14" fill="#6b675f" text-anchor="middle">bearer (floor above)</text>
+  <!-- ground -->
+  <rect x="0" y="230" width="700" height="130" fill="#c9a36b"/>
+  <line x1="0" y1="230" x2="700" y2="230" stroke="#9bc97e" stroke-width="5"/>
+  <!-- stump above ground -->
+  <rect x="332" y="48" width="36" height="182" fill="#5f5e5a"/>
+  <!-- stump below ground (the question) -->
+  <rect x="332" y="230" width="36" height="80" fill="#5f5e5a" opacity="0.45" stroke="#2c2a26" stroke-width="2" stroke-dasharray="6 5"/>
+  <!-- above-ground height dimension -->
+  <line x1="290" y1="48" x2="290" y2="230" stroke="#6b675f" stroke-width="2"/>
+  <line x1="282" y1="48" x2="298" y2="48" stroke="#6b675f" stroke-width="2"/>
+  <line x1="282" y1="230" x2="298" y2="230" stroke="#6b675f" stroke-width="2"/>
+  <text x="274" y="140" font-size="16" fill="#2c2a26" text-anchor="end">1.8 m above ground</text>
+  <!-- embedment dimension -->
+  <line x1="410" y1="230" x2="410" y2="310" stroke="#d85a30" stroke-width="2"/>
+  <line x1="402" y1="230" x2="418" y2="230" stroke="#d85a30" stroke-width="2"/>
+  <line x1="402" y1="310" x2="418" y2="310" stroke="#d85a30" stroke-width="2"/>
+  <text x="428" y="268" font-size="22" font-weight="bold" fill="#d85a30">?</text>
+  <text x="428" y="290" font-size="14" fill="#d85a30">how deep?</text>
+</svg>

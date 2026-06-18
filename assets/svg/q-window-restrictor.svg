@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" font-family="sans-serif">
+<rect width="700" height="280" fill="#eef7fb"/>
+<rect x="240" y="40" width="220" height="160" fill="#cfe8f0" stroke="#5f5e5a" stroke-width="4"/>
+<line x1="350" y1="40" x2="350" y2="200" stroke="#8aa6ad" stroke-width="2"/>
+<text x="350" y="125" font-size="12.5" fill="#2c2a26" text-anchor="middle">bedroom window</text>
+<rect x="0" y="240" width="700" height="40" fill="#c9a36b"/>
+<line x1="500" y1="200" x2="500" y2="240" stroke="#d85a30" stroke-width="2"/>
+<text x="514" y="228" font-size="12.5" fill="#d85a30">2 m+ drop</text>
+<text x="350" y="270" font-size="13" fill="#2c2a26" text-anchor="middle">a child could fall — what protects this opening?</text>
+</svg>

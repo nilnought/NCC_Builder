@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" font-family="sans-serif">
+<rect width="700" height="220" fill="#eef7fb"/>
+<rect x="0" y="120" width="700" height="100" fill="#bb9159"/>
+<rect x="60" y="112" width="580" height="8" fill="#2c2a26"/>
+<path d="M320 116 l12 -16 l8 12 l10 -14" stroke="#2c2a26" stroke-width="3" fill="none"/>
+<polygon points="318,120 350,120 334,104" fill="#bb9159"/>
+<text x="334" y="90" font-size="13" fill="#993c1d" text-anchor="middle">torn membrane</text>
+<text x="350" y="170" font-size="13.5" fill="#d85a30" text-anchor="middle">a plumber tore the vapour barrier — now what?</text>
+</svg>

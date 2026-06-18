@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+<rect width="700" height="320" fill="#eef7fb"/>
+<text x="350" y="28" font-size="15" fill="#2c2a26" text-anchor="middle">Two sheets meet part-way up a long roof — how big is the end lap?</text>
+<text x="350" y="48" font-size="11.5" fill="#6b675f" text-anchor="middle">side-on section · uphill (ridge) on the left, gutter on the right</text>
+
+<!-- lower sheet (laid first), runs to the gutter -->
+<polygon points="300,150 610,240 610,258 300,168" fill="#aab6bf" stroke="#7d8b94" stroke-width="1.5"/>
+<text x="500" y="218" font-size="12" fill="#3c3a36" text-anchor="middle" transform="rotate(16 500 218)">lower sheet</text>
+
+<!-- upper sheet (laid next), laps OVER the lower one -->
+<polygon points="100,70 360,146 360,164 100,88" fill="#c2ccd3" stroke="#7d8b94" stroke-width="1.5"/>
+<text x="210" y="108" font-size="12" fill="#3c3a36" text-anchor="middle" transform="rotate(16 210 108)">upper sheet</text>
+
+<!-- the end lap (overlap zone) highlighted -->
+<polygon points="300,150 360,146 360,164 300,168" fill="#ffd27a" stroke="#d8932a" stroke-width="1.5" opacity="0.9"/>
+<line x1="300" y1="128" x2="360" y2="142" stroke="#b9701a" stroke-width="1.5"/>
+<line x1="300" y1="128" x2="300" y2="150" stroke="#b9701a" stroke-width="1.5"/>
+<line x1="360" y1="142" x2="360" y2="146" stroke="#b9701a" stroke-width="1.5"/>
+<text x="330" y="122" font-size="20" fill="#b9701a" text-anchor="middle">?</text>
+<text x="330" y="300" font-size="12.5" fill="#b9701a" text-anchor="middle">end lap = ?</text>
+<line x1="330" y1="170" x2="330" y2="288" stroke="#b9701a" stroke-width="1" stroke-dasharray="4 3"/>
+
+<!-- ridge + gutter -->
+<rect x="86" y="60" width="22" height="14" fill="#8f9ea7"/>
+<text x="80" y="54" font-size="11.5" fill="#6b675f" text-anchor="end">ridge (top)</text>
+<path d="M598 244 q22 4 30 -10 l-4 30 q-18 8 -28 -2 Z" fill="#6f7d86"/>
+<text x="636" y="270" font-size="11.5" fill="#6b675f" text-anchor="middle">gutter</text>
+
+<!-- rain runs downhill -->
+<line x1="150" y1="64" x2="540" y2="200" stroke="#2f9bd6" stroke-width="3" marker-end="url(#ah)"/>
+<defs><marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#2f9bd6"/></marker></defs>
+<text x="250" y="118" font-size="12" fill="#2f9bd6" transform="rotate(16 250 118)">rain runs downhill →</text>
+</svg>

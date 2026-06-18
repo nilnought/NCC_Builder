@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+<rect width="700" height="320" fill="#eef7fb"/>
+<text x="350" y="26" font-size="15" fill="#2c2a26" text-anchor="middle">Splayed timber weatherboards — how much must each board lap the one below?</text>
+
+<!-- ===== FACE VIEW (left): what a weatherboard wall looks like ===== -->
+<rect x="40" y="60" width="360" height="232" fill="#d9b27a" stroke="#9c7340" stroke-width="1.5"/>
+<g>
+  <!-- each lap line = the bottom of a board overlapping the next; thin highlight under it for the 3D step -->
+  <g stroke="#9c7340" stroke-width="2.5"><line x1="40" y1="90" x2="400" y2="90"/><line x1="40" y1="120" x2="400" y2="120"/><line x1="40" y1="150" x2="400" y2="150"/><line x1="40" y1="180" x2="400" y2="180"/><line x1="40" y1="210" x2="400" y2="210"/><line x1="40" y1="240" x2="400" y2="240"/><line x1="40" y1="270" x2="400" y2="270"/></g>
+  <g stroke="#efd6a6" stroke-width="1.5"><line x1="40" y1="93" x2="400" y2="93"/><line x1="40" y1="123" x2="400" y2="123"/><line x1="40" y1="153" x2="400" y2="153"/><line x1="40" y1="183" x2="400" y2="183"/><line x1="40" y1="213" x2="400" y2="213"/><line x1="40" y1="243" x2="400" y2="243"/><line x1="40" y1="273" x2="400" y2="273"/></g>
+  <!-- nails -->
+  <g fill="#6f562f"><circle cx="120" cy="83" r="2.4"/><circle cx="220" cy="83" r="2.4"/><circle cx="320" cy="83" r="2.4"/><circle cx="120" cy="143" r="2.4"/><circle cx="220" cy="143" r="2.4"/><circle cx="320" cy="143" r="2.4"/><circle cx="120" cy="203" r="2.4"/><circle cx="220" cy="203" r="2.4"/><circle cx="320" cy="203" r="2.4"/><circle cx="120" cy="263" r="2.4"/><circle cx="220" cy="263" r="2.4"/><circle cx="320" cy="263" r="2.4"/></g>
+</g>
+<text x="220" y="308" font-size="12" fill="#6b675f" text-anchor="middle">the wall, seen face-on</text>
+
+<!-- ===== SECTION (right): the overlap, end-on ===== -->
+<text x="560" y="58" font-size="12" fill="#6b675f" text-anchor="middle">end-on section</text>
+<!-- wall framing -->
+<rect x="648" y="66" width="12" height="226" fill="#7e8d96"/>
+<text x="654" y="304" font-size="11" fill="#6b675f" text-anchor="middle">wall</text>
+<!-- boards: bottom drawn first so each upper board laps OVER the one below -->
+<g stroke="#9c7340" stroke-width="1.2">
+  <polygon points="648,206 560,224 560,238 648,234" fill="#d9b27a"/>
+  <polygon points="648,180 560,198 560,212 648,208" fill="#dcb87f"/>
+  <polygon points="648,154 560,172 560,186 648,182" fill="#d9b27a"/>
+  <polygon points="648,128 560,146 560,160 648,156" fill="#dcb87f"/>
+  <polygon points="648,102 560,120 560,134 648,130" fill="#d9b27a"/>
+</g>
+<!-- lap highlight on one joint -->
+<polygon points="648,128 560,146 560,156 648,138" fill="#ffd27a" stroke="#d8932a" stroke-width="1.2" opacity="0.92"/>
+<line x1="540" y1="146" x2="540" y2="156" stroke="#b9701a" stroke-width="1.4"/>
+<line x1="536" y1="146" x2="544" y2="146" stroke="#b9701a" stroke-width="1.4"/>
+<line x1="536" y1="156" x2="544" y2="156" stroke="#b9701a" stroke-width="1.4"/>
+<text x="524" y="156" font-size="18" fill="#b9701a" text-anchor="end">?</text>
+<text x="600" y="285" font-size="12" fill="#b9701a" text-anchor="middle">lap = ?</text>
+</svg>

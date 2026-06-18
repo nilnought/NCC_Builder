@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+  <rect width="700" height="300" fill="#eef7fb"/>
+  <!-- ground -->
+  <rect x="0" y="200" width="700" height="100" fill="#c9a36b"/>
+  <!-- slab with a stepped-down recess in the middle -->
+  <path d="M40 110 L280 110 L280 140 L480 140 L480 110 L660 110 L660 200 L40 200 Z" fill="#b9b6ad" stroke="#8f8c84" stroke-width="2"/>
+  <text x="150" y="100" font-size="14" fill="#6b675f" text-anchor="middle">floor level</text>
+  <text x="380" y="132" font-size="14" fill="#2c2a26" text-anchor="middle">recess (tiled shower floor)</text>
+  <!-- recess depth dimension -->
+  <line x1="255" y1="110" x2="255" y2="140" stroke="#6b675f" stroke-width="2"/>
+  <line x1="247" y1="110" x2="263" y2="110" stroke="#6b675f" stroke-width="2"/>
+  <line x1="247" y1="140" x2="263" y2="140" stroke="#6b675f" stroke-width="2"/>
+  <text x="240" y="132" font-size="13" fill="#2c2a26" text-anchor="end">40 mm down</text>
+  <!-- the question: the slab under the recess -->
+  <circle cx="380" cy="172" r="18" fill="none" stroke="#d85a30" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <text x="380" y="180" font-size="20" font-weight="bold" fill="#d85a30" text-anchor="middle">?</text>
+  <text x="380" y="240" font-size="15" fill="#f5f3ee" text-anchor="middle">the slab is locally thinner here — what does NCC 2025 require?</text>
+</svg>

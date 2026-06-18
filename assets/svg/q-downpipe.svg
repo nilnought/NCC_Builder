@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" font-family="sans-serif">
+<rect width="700" height="220" fill="#eef7fb"/>
+<rect x="60" y="80" width="580" height="20" fill="#6f7d86"/>
+<rect x="60" y="100" width="20" height="100" fill="#5f5e5a"/>
+<text x="350" y="60" font-size="14" fill="#2c2a26" text-anchor="middle">one downpipe at the end of a gutter run</text>
+<line x1="80" y1="130" x2="640" y2="130" stroke="#d85a30" stroke-width="2"/>
+<line x1="80" y1="122" x2="80" y2="138" stroke="#d85a30" stroke-width="2"/>
+<line x1="640" y1="122" x2="640" y2="138" stroke="#d85a30" stroke-width="2"/>
+<text x="360" y="122" font-size="16" font-weight="bold" fill="#d85a30" text-anchor="middle">? max gutter length</text>
+</svg>

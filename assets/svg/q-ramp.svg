@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" font-family="sans-serif">
+<rect width="700" height="260" fill="#eef7fb"/>
+<rect x="0" y="210" width="700" height="50" fill="#c9a36b"/>
+<polygon points="100,210 560,110 560,130 100,210" fill="#b9b6ad" stroke="#8f8c84" stroke-width="2"/>
+<rect x="540" y="70" width="120" height="60" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+<text x="600" y="105" font-size="12.5" fill="#2c2a26" text-anchor="middle">door</text>
+<text x="300" y="195" font-size="13" fill="#2c2a26" text-anchor="middle">ramp to the entrance</text>
+<text x="300" y="240" font-size="14" fill="#d85a30" text-anchor="middle">? steepest gradient allowed</text>
+</svg>

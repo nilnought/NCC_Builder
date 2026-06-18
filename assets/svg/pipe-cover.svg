@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+  <rect width="700" height="300" fill="#eef7fb"/>
+  <!-- soil -->
+  <rect x="0" y="120" width="700" height="180" fill="#c9a36b"/>
+  <!-- backfilled trench (slightly different colour) -->
+  <polygon points="290,120 410,120 400,275 300,275" fill="#bb9159"/>
+  <line x1="290" y1="120" x2="300" y2="275" stroke="#a8843f" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="410" y1="120" x2="400" y2="275" stroke="#a8843f" stroke-width="2" stroke-dasharray="6 4"/>
+  <!-- grass surface -->
+  <line x1="0" y1="120" x2="700" y2="120" stroke="#9bc97e" stroke-width="6"/>
+  <text x="120" y="105" font-size="15" fill="#2c2a26">lawn / garden soil</text>
+  <!-- the pipe -->
+  <circle cx="350" cy="228" r="32" fill="#f5f3ee" stroke="#8f8c84" stroke-width="4"/>
+  <circle cx="350" cy="228" r="20" fill="#e8e4da"/>
+  <text x="470" y="225" font-size="15" fill="#2c2a26">90 mm PVC</text>
+  <text x="470" y="244" font-size="15" fill="#2c2a26">stormwater pipe</text>
+  <line x1="416" y1="228" x2="462" y2="228" stroke="#6b675f" stroke-width="2"/>
+  <!-- cover dimension: surface down to TOP of pipe -->
+  <line x1="240" y1="120" x2="240" y2="196" stroke="#d85a30" stroke-width="2"/>
+  <line x1="232" y1="120" x2="248" y2="120" stroke="#d85a30" stroke-width="2"/>
+  <line x1="232" y1="196" x2="248" y2="196" stroke="#d85a30" stroke-width="2"/>
+  <line x1="240" y1="196" x2="318" y2="196" stroke="#d85a30" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="224" y="150" font-size="20" font-weight="bold" fill="#d85a30" text-anchor="end">? mm</text>
+  <text x="224" y="170" font-size="14" fill="#d85a30" text-anchor="end">soil cover</text>
+  <text x="224" y="188" font-size="14" fill="#d85a30" text-anchor="end">(to top of pipe)</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+  <rect width="700" height="320" fill="#eef7fb"/>
+  <!-- ground -->
+  <rect x="0" y="180" width="700" height="140" fill="#c9a36b"/>
+  <line x1="0" y1="180" x2="700" y2="180" stroke="#9bc97e" stroke-width="4"/>
+  <!-- two masonry walls, each on its own deep strip footing -->
+  <g>
+    <rect x="110" y="60" width="60" height="120" fill="#c96f4a"/>
+    <g stroke="#a8512f" stroke-width="1.5">
+      <line x1="110" y1="90" x2="170" y2="90"/><line x1="110" y1="120" x2="170" y2="120"/><line x1="110" y1="150" x2="170" y2="150"/>
+    </g>
+    <rect x="95" y="180" width="90" height="80" fill="#b9b6ad" stroke="#8f8c84" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="530" y="60" width="60" height="120" fill="#c96f4a"/>
+    <g stroke="#a8512f" stroke-width="1.5">
+      <line x1="530" y1="90" x2="590" y2="90"/><line x1="530" y1="120" x2="590" y2="120"/><line x1="530" y1="150" x2="590" y2="150"/>
+    </g>
+    <rect x="515" y="180" width="90" height="80" fill="#b9b6ad" stroke="#8f8c84" stroke-width="2"/>
+  </g>
+  <text x="140" y="50" font-size="14" fill="#2c2a26" text-anchor="middle">masonry wall</text>
+  <text x="560" y="50" font-size="14" fill="#2c2a26" text-anchor="middle">masonry wall</text>
+  <text x="140" y="288" font-size="13" fill="#3d3b36" text-anchor="middle">strip footing</text>
+  <text x="560" y="288" font-size="13" fill="#3d3b36" text-anchor="middle">strip footing</text>
+  <!-- separate infill floor panel between the strips (with visible joints) -->
+  <rect x="195" y="162" width="310" height="18" fill="#d3d1c7" stroke="#8f8c84" stroke-width="2"/>
+  <line x1="350" y1="162" x2="350" y2="180" stroke="#8f8c84" stroke-width="2"/>
+  <text x="350" y="150" font-size="14" fill="#2c2a26" text-anchor="middle">separate 'infill' floor panel — just sits between the strips</text>
+  <text x="350" y="216" font-size="20" font-weight="bold" fill="#d85a30" text-anchor="middle">?</text>
+  <text x="350" y="238" font-size="13" fill="#f5f3ee" text-anchor="middle">allowed on which site classes?</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" font-family="sans-serif">
+<rect width="700" height="280" fill="#eef7fb"/>
+<polygon points="80,120 620,120 350,50" fill="#e7ddc8"/>
+<text x="200" y="105" font-size="12" fill="#7c5f2c">roof space</text>
+<rect x="80" y="120" width="540" height="120" fill="#f3f6f7" stroke="#b4b2a9" stroke-width="2"/>
+<rect x="300" y="160" width="60" height="14" fill="#d3d1c7"/>
+<text x="330" y="200" font-size="12" fill="#2c2a26" text-anchor="middle">exhaust fan</text>
+<path d="M330 160 q30 -40 80 -70" fill="none" stroke="#8f8c84" stroke-width="6"/>
+<text x="430" y="80" font-size="18" font-weight="bold" fill="#d85a30">?</text>
+<text x="350" y="266" font-size="13" fill="#2c2a26" text-anchor="middle">where must the bathroom exhaust discharge?</text>
+</svg>

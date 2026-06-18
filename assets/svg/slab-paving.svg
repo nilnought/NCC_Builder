@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+  <rect width="700" height="300" fill="#eef7fb"/>
+  <!-- wall sitting on the slab -->
+  <rect x="320" y="20" width="380" height="110" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <text x="510" y="82" font-size="16" fill="#2c2a26" text-anchor="middle">wall</text>
+  <!-- concrete slab -->
+  <rect x="300" y="130" width="400" height="80" fill="#b9b6ad"/>
+  <line x1="300" y1="130" x2="700" y2="130" stroke="#8f8c84" stroke-width="3"/>
+  <text x="510" y="175" font-size="16" fill="#3d3b36" text-anchor="middle">concrete slab-on-ground</text>
+  <!-- concrete paving, sloping away from the house -->
+  <polygon points="300,168 0,182 0,206 300,192" fill="#d3d1c7" stroke="#8f8c84" stroke-width="2"/>
+  <g stroke="#8f8c84" stroke-width="2">
+    <line x1="240" y1="171" x2="240" y2="195"/><line x1="180" y1="174" x2="180" y2="198"/>
+    <line x1="120" y1="177" x2="120" y2="201"/><line x1="60" y1="179" x2="60" y2="203"/>
+  </g>
+  <!-- water arrow along the paving -->
+  <path d="M150 166 q-35 4 -70 7" stroke="#378add" stroke-width="2.5" fill="none"/>
+  <polygon points="72,176 86,169 84,179" fill="#378add"/>
+  <!-- soil under everything -->
+  <polygon points="0,206 300,192 300,210 700,210 700,300 0,300" fill="#c9a36b"/>
+  <text x="150" y="240" font-size="15" fill="#f5f3ee" text-anchor="middle">concrete paving, slopes away from the house</text>
+  <!-- gap dimension -->
+  <line x1="262" y1="130" x2="262" y2="169" stroke="#d85a30" stroke-width="2"/>
+  <line x1="254" y1="130" x2="270" y2="130" stroke="#d85a30" stroke-width="2"/>
+  <line x1="254" y1="169" x2="270" y2="169" stroke="#d85a30" stroke-width="2"/>
+  <line x1="262" y1="130" x2="298" y2="130" stroke="#d85a30" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="246" y="146" font-size="20" font-weight="bold" fill="#d85a30" text-anchor="end">?</text>
+  <text x="246" y="164" font-size="14" fill="#d85a30" text-anchor="end">min step</text>
+</svg>

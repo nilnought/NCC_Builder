@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="sans-serif">
+<rect width="700" height="300" fill="#eef7fb"/>
+<rect x="200" y="30" width="300" height="190" fill="#cfae87"/>
+<g stroke="#a88a5f" stroke-width="2"><line x1="200" y1="70" x2="500" y2="70"/><line x1="200" y1="110" x2="500" y2="110"/><line x1="200" y1="150" x2="500" y2="150"/><line x1="200" y1="190" x2="500" y2="190"/></g>
+<text x="350" y="125" font-size="13" fill="#2c2a26" text-anchor="middle">wall cladding</text>
+<rect x="0" y="250" width="700" height="50" fill="#c9a36b"/>
+<line x1="0" y1="250" x2="700" y2="250" stroke="#9bc97e" stroke-width="4"/>
+<line x1="170" y1="220" x2="170" y2="250" stroke="#d85a30" stroke-width="2"/>
+<line x1="162" y1="220" x2="178" y2="220" stroke="#d85a30" stroke-width="2"/>
+<line x1="162" y1="250" x2="178" y2="250" stroke="#d85a30" stroke-width="2"/>
+<text x="156" y="242" font-size="18" font-weight="bold" fill="#d85a30" text-anchor="end">?</text>
+<text x="350" y="285" font-size="13" fill="#2c2a26" text-anchor="middle">gap from cladding bottom to the ground?</text>
+</svg>

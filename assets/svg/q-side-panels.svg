@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" font-family="sans-serif">
+<rect width="700" height="260" fill="#eef7fb"/>
+<rect x="0" y="220" width="700" height="40" fill="#d8cbb4"/>
+<rect x="280" y="40" width="120" height="180" fill="#dff0f6" stroke="#5f5e5a" stroke-width="4"/>
+<circle cx="388" cy="135" r="5" fill="#5f5e5a"/>
+<text x="340" y="245" font-size="12.5" fill="#2c2a26" text-anchor="middle">glass door</text>
+<rect x="410" y="40" width="70" height="180" fill="#dff0f6" stroke="#8aa6ad" stroke-width="3"/>
+<text x="445" y="245" font-size="12.5" fill="#2c2a26" text-anchor="middle">side panel</text>
+<line x1="400" y1="232" x2="410" y2="232" stroke="#d85a30" stroke-width="2"/>
+<text x="500" y="130" font-size="14" fill="#d85a30">? glass beside a door</text>
+</svg>

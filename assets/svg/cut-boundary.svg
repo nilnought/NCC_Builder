@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+  <rect width="700" height="320" fill="#eef7fb"/>
+  <!-- neighbour's house just over the boundary -->
+  <rect x="30" y="80" width="120" height="80" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <polygon points="20,80 160,80 90,40" fill="#c96f4a"/>
+  <rect x="20" y="160" width="140" height="30" fill="#b9b6ad"/>
+  <text x="90" y="125" font-size="15" fill="#2c2a26" text-anchor="middle">neighbour</text>
+  <!-- boundary fence -->
+  <rect x="208" y="100" width="8" height="90" fill="#9b8a6d"/>
+  <rect x="196" y="108" width="32" height="6" fill="#9b8a6d"/>
+  <rect x="196" y="170" width="32" height="6" fill="#9b8a6d"/>
+  <text x="212" y="88" font-size="14" fill="#6b675f" text-anchor="middle">allotment boundary</text>
+  <!-- ground -->
+  <rect x="0" y="190" width="700" height="130" fill="#c9a36b"/>
+  <line x1="0" y1="190" x2="700" y2="190" stroke="#9bc97e" stroke-width="5"/>
+  <!-- planned excavation, dashed -->
+  <g stroke="#d85a30" stroke-width="2.5" stroke-dasharray="8 6" fill="none">
+    <rect x="380" y="190" width="240" height="90"/>
+  </g>
+  <text x="500" y="240" font-size="15" fill="#d85a30" text-anchor="middle">planned site cut</text>
+  <!-- the question -->
+  <line x1="216" y1="225" x2="380" y2="225" stroke="#d85a30" stroke-width="2"/>
+  <polygon points="216,225 228,219 228,231" fill="#d85a30"/>
+  <polygon points="380,225 368,219 368,231" fill="#d85a30"/>
+  <text x="298" y="215" font-size="20" font-weight="bold" fill="#d85a30" text-anchor="middle">?</text>
+  <text x="298" y="305" font-size="15" fill="#2c2a26" text-anchor="middle">how close to the boundary can the cut go?</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 240" font-family="sans-serif">
+<rect width="700" height="240" fill="#eef7fb"/>
+<rect x="120" y="30" width="60" height="180" fill="#cd7d58"/>
+<polygon points="180,120 600,200 600,170 180,90" fill="#b8c4cc"/>
+<path d="M150 90 l40 0 l0 50" fill="none" stroke="#5f5e5a" stroke-width="6"/>
+<text x="220" y="70" font-size="13" fill="#2c2a26">flashing at the wall</text>
+<text x="350" y="180" font-size="14" fill="#2c2a26">roof</text>
+<text x="350" y="225" font-size="13" fill="#d85a30" text-anchor="middle">how much must flashing joints overlap?</text>
+</svg>

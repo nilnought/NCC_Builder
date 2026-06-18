@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+  <rect width="700" height="320" fill="#eef7fb"/>
+  <!-- two attached townhouses, cross-section -->
+  <!-- left dwelling -->
+  <rect x="60" y="120" width="280" height="150" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <!-- right dwelling -->
+  <rect x="360" y="120" width="280" height="150" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <!-- roofs -->
+  <polygon points="50,120 350,120 200,56" fill="#c96f4a"/>
+  <polygon points="350,120 650,120 500,56" fill="#c96f4a"/>
+  <!-- slab/ground -->
+  <rect x="50" y="270" width="600" height="30" fill="#b9b6ad"/>
+  <rect x="0" y="300" width="700" height="20" fill="#c9a36b"/>
+  <text x="200" y="200" font-size="15" fill="#2c2a26" text-anchor="middle">dwelling A</text>
+  <text x="500" y="200" font-size="15" fill="#2c2a26" text-anchor="middle">dwelling B</text>
+  <!-- the separating wall, full height footing-to-roof -->
+  <rect x="344" y="60" width="12" height="210" fill="#8f8c84"/>
+  <text x="350" y="46" font-size="13" fill="#3d3b36" text-anchor="middle">shared separating wall</text>
+  <!-- how high (top extent) and how low (bottom extent) -->
+  <line x1="356" y1="70" x2="394" y2="70" stroke="#d85a30" stroke-width="1.5"/>
+  <text x="398" y="74" font-size="13" font-weight="bold" fill="#d85a30">how high?</text>
+  <line x1="356" y1="258" x2="394" y2="258" stroke="#d85a30" stroke-width="1.5"/>
+  <text x="398" y="262" font-size="13" font-weight="bold" fill="#d85a30">how low?</text>
+</svg>

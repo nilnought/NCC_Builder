@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="sans-serif">
+  <rect width="700" height="320" fill="#eef7fb"/>
+  <!-- rain cloud -->
+  <g fill="#b9cdd6">
+    <ellipse cx="90" cy="48" rx="38" ry="20"/><ellipse cx="125" cy="40" rx="30" ry="17"/><ellipse cx="60" cy="42" rx="26" ry="15"/>
+  </g>
+  <g stroke="#378add" stroke-width="2" stroke-linecap="round">
+    <line x1="60" y1="70" x2="50" y2="92"/><line x1="90" y1="72" x2="80" y2="94"/><line x1="120" y1="70" x2="110" y2="92"/>
+  </g>
+  <!-- house above: low wall + floor platform -->
+  <rect x="180" y="60" width="380" height="80" fill="#f0e6d2" stroke="#d9c9a8" stroke-width="2"/>
+  <polygon points="165,60 575,60 370,12" fill="#c96f4a"/>
+  <rect x="170" y="140" width="400" height="22" fill="#8a6f4e"/>
+  <text x="370" y="106" font-size="16" fill="#2c2a26" text-anchor="middle">suspended timber floor</text>
+  <!-- stumps -->
+  <rect x="200" y="162" width="16" height="98" fill="#5f5e5a"/>
+  <rect x="306" y="162" width="16" height="98" fill="#5f5e5a"/>
+  <rect x="416" y="162" width="16" height="98" fill="#5f5e5a"/>
+  <rect x="522" y="162" width="16" height="98" fill="#5f5e5a"/>
+  <!-- flat, untreated ground -->
+  <polygon points="0,260 700,260 700,320 0,320" fill="#c9a36b"/>
+  <line x1="0" y1="260" x2="700" y2="260" stroke="#9bc97e" stroke-width="5"/>
+  <!-- wind-blown rain reaching under the floor -->
+  <g stroke="#378add" stroke-width="2.5" fill="none">
+    <path d="M120 200 q60 18 120 28"/>
+  </g>
+  <polygon points="248,232 234,222 250,221" fill="#378add"/>
+  <!-- the question -->
+  <text x="370" y="225" font-size="30" font-weight="bold" fill="#d85a30" text-anchor="middle">?</text>
+  <text x="370" y="250" font-size="15" fill="#d85a30" text-anchor="middle">what about the ground under here?</text>
+</svg>
