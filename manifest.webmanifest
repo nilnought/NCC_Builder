@@ -12,83 +12,83 @@
   "categories": ["education", "games"],
   "icons": [
     {
-      "src": "./favicon.png",
+      "src": "./favicon.png?v=40",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "./android-chrome-192x192.png",
+      "src": "./android-chrome-192x192.png?v=40",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./android-chrome-512x512.png",
+      "src": "./android-chrome-512x512.png?v=40",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./assets/app/icon-48.png",
+      "src": "./assets/app/icon-48.png?v=40",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "./assets/app/icon-72.png",
+      "src": "./assets/app/icon-72.png?v=40",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "./assets/app/icon-96.png",
+      "src": "./assets/app/icon-96.png?v=40",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "./assets/app/icon-128.png",
+      "src": "./assets/app/icon-128.png?v=40",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "./assets/app/icon-144.png",
+      "src": "./assets/app/icon-144.png?v=40",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "./assets/app/icon-152.png",
+      "src": "./assets/app/icon-152.png?v=40",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "./assets/app/icon-180.png",
+      "src": "./assets/app/icon-180.png?v=40",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "./assets/app/icon-192.png",
+      "src": "./assets/app/icon-192.png?v=40",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "./assets/app/icon-384.png",
+      "src": "./assets/app/icon-384.png?v=40",
       "sizes": "384x384",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./assets/app/icon-512.png",
+      "src": "./assets/app/icon-512.png?v=40",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "./assets/app/maskable-192.png",
+      "src": "./assets/app/maskable-192.png?v=40",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "./assets/app/maskable-512.png",
+      "src": "./assets/app/maskable-512.png?v=40",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
