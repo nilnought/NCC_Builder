@@ -181,18 +181,19 @@ button { font-family: inherit; }
 .hotspot::before {
   content: "?";
   position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-  width: 26px; height: 26px; border-radius: 50%;
-  background: rgba(255,255,255,0.92); border: 2px solid var(--ink-soft);
-  color: var(--ink); font-weight: 700; font-size: 15px; line-height: 22px;
-  text-align: center; box-shadow: var(--shadow);
+  width: clamp(14px, 70%, 26px); aspect-ratio: 1; border-radius: 50%;
+  background: rgba(255,255,255,0.92); border: 1.5px solid var(--ink-soft);
+  color: var(--ink); font-weight: 700; font-size: clamp(10px, 42%, 15px);
+  line-height: 1; text-align: center; box-shadow: var(--shadow);
+  display: flex; align-items: center; justify-content: center;
 }
 /* badge-below: hangs the ? under the hotspot so it doesn't cover the detail */
-.hotspot.badge-below::before { top: auto; bottom: -30px; }
+.hotspot.badge-below::before { top: auto; bottom: clamp(-30px, -80%, -18px); }
 .hotspot.found::before, .hotspot.cleared::before { content: none; }
 .hotspot:hover { border-color: rgba(0,0,0,0.25); background: rgba(255,255,255,0.15); }
 .hotspot.found { border: 2.5px solid var(--warn); background: rgba(216,90,48,0.18); cursor: default; }
 .hotspot.found::after {
-  content: "\26A0"; position: absolute; top: -12px; right: -10px; font-size: 18px;
+  content: "\26A0"; position: absolute; top: -12px; right: -10px; font-size: clamp(13px, 5vw, 18px);
 }
 .hotspot.cleared { border: 2.5px solid var(--accent); background: rgba(29,158,117,0.15); cursor: default; }
 .hotspot.cleared::after {
@@ -200,6 +201,16 @@ button { font-family: inherit; }
   font-size: 15px; font-weight: 700; color: var(--accent-dark);
   background: var(--accent-soft); border-radius: 50%; width: 20px; height: 20px;
   display: flex; align-items: center; justify-content: center;
+}
+
+@media (max-width: 420px) {
+  .defect-stage img { border-radius: 8px; }
+  .hotspot { border-radius: 6px; }
+  .hotspot:hover { border-color: transparent; background: transparent; }
+  .hotspot.found, .hotspot.cleared { border-width: 2px; }
+  .hotspot.cleared::after {
+    top: -9px; right: -8px; width: 16px; height: 16px; font-size: 12px;
+  }
 }
 .defect-status { font-size: 14px; color: var(--ink-soft); margin: 0 0 8px; }
 .defect-log { display: flex; flex-direction: column; gap: 8px; }
