@@ -185,6 +185,37 @@
 
   /* ---------- type: defect (spot the problems in a picture) ---------- */
 
+  function resizeHotspotBadges(stage) {
+    var viewport = window.innerWidth || document.documentElement.clientWidth || 0;
+    var maxSize = viewport <= 420 ? 11 : viewport <= 600 ? 13 : 17;
+
+    stage.querySelectorAll(".hotspot").forEach(function (btn) {
+      var r = btn.getBoundingClientRect();
+      if (!r.width || !r.height) return;
+
+      var size = Math.round(Math.min(maxSize, Math.max(7, Math.min(r.width, r.height) * 0.38)));
+      btn.style.setProperty("--hotspot-badge-size", size + "px");
+      btn.style.setProperty("--hotspot-badge-font", Math.max(6, Math.round(size * 0.62)) + "px");
+      btn.style.setProperty("--hotspot-badge-offset", (-size - 2) + "px");
+    });
+  }
+
+  function watchHotspotBadges(stage) {
+    var img = stage.querySelector("img");
+    var resize = function () { resizeHotspotBadges(stage); };
+
+    window.requestAnimationFrame(resize);
+    if (img && !img.complete) img.addEventListener("load", resize, { once: true });
+
+    if (window.ResizeObserver) {
+      var observer = new ResizeObserver(resize);
+      observer.observe(stage);
+      return;
+    }
+
+    window.addEventListener("resize", resize, { passive: true });
+  }
+
   function renderDefect(q, container, onComplete) {
     var found = 0;
     var okClicked = false;
@@ -206,6 +237,7 @@
 
     var log = container.querySelector(".defect-log");
     var after = container.querySelector(".q-after");
+    watchHotspotBadges(container.querySelector(".defect-stage"));
 
     container.querySelector(".defect-stage").addEventListener("click", function (e) {
       var btn = e.target.closest(".hotspot");

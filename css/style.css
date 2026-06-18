@@ -171,7 +171,13 @@ button { font-family: inherit; }
 }
 
 /* ---------- defect (spot the problem) question ---------- */
-.defect-stage { position: relative; margin-bottom: 12px; }
+.defect-stage {
+  --hotspot-badge-size: 17px;
+  --hotspot-badge-font: 10px;
+  --hotspot-badge-offset: calc(var(--hotspot-badge-size) * -1 - 2px);
+  position: relative;
+  margin-bottom: 12px;
+}
 .defect-stage img { width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--line); display: block; }
 .hotspot {
   position: absolute; border: 2px dashed transparent; background: transparent;
@@ -181,14 +187,14 @@ button { font-family: inherit; }
 .hotspot::before {
   content: "?";
   position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-  width: clamp(14px, 70%, 26px); aspect-ratio: 1; border-radius: 50%;
+  width: var(--hotspot-badge-size); height: var(--hotspot-badge-size); border-radius: 50%;
   background: rgba(255,255,255,0.92); border: 1.5px solid var(--ink-soft);
-  color: var(--ink); font-weight: 700; font-size: clamp(10px, 42%, 15px);
+  color: var(--ink); font-weight: 700; font-size: var(--hotspot-badge-font);
   line-height: 1; text-align: center; box-shadow: var(--shadow);
   display: flex; align-items: center; justify-content: center;
 }
 /* badge-below: hangs the ? under the hotspot so it doesn't cover the detail */
-.hotspot.badge-below::before { top: auto; bottom: clamp(-30px, -80%, -18px); }
+.hotspot.badge-below::before { top: auto; bottom: var(--hotspot-badge-offset); }
 .hotspot.found::before, .hotspot.cleared::before { content: none; }
 .hotspot:hover { border-color: rgba(0,0,0,0.25); background: rgba(255,255,255,0.15); }
 .hotspot.found { border: 2.5px solid var(--warn); background: rgba(216,90,48,0.18); cursor: default; }
@@ -204,14 +210,25 @@ button { font-family: inherit; }
 }
 
 @media (max-width: 420px) {
+  .defect-stage {
+    --hotspot-badge-size: 11px;
+    --hotspot-badge-font: 6px;
+  }
   .defect-stage img { border-radius: 8px; }
   .hotspot { border-radius: 6px; }
+  .hotspot::before {
+    border-width: 1px; box-shadow: none;
+  }
   .hotspot:hover { border-color: transparent; background: transparent; }
   .hotspot.found, .hotspot.cleared { border-width: 2px; }
+  .hotspot.found::after {
+    top: -9px; right: -8px; font-size: 12px;
+  }
   .hotspot.cleared::after {
     top: -9px; right: -8px; width: 16px; height: 16px; font-size: 12px;
   }
 }
+
 .defect-status { font-size: 14px; color: var(--ink-soft); margin: 0 0 8px; }
 .defect-log { display: flex; flex-direction: column; gap: 8px; }
 .defect-log .feedback { margin-top: 0; }
