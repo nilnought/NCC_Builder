@@ -73,7 +73,7 @@ body {
 @media (max-width: 460px) {
   .topbar-inner { gap: 9px; }
   .install-btn { padding: 7px 10px; font-size: 12px; }
-  .tagline { display: none; }
+  .tagline { font-size: 11px; line-height: 1.25; }
 }
 
 /* ---------- layout ---------- */
