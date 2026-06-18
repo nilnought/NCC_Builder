@@ -39,6 +39,42 @@ body {
 .topbar h1 { font-size: 20px; margin: 0; }
 .tagline { font-size: 12px; color: var(--ink-soft); margin: 0; }
 .logo { font-size: 28px; }
+.brand-block { min-width: 0; flex: 1; }
+.install-btn {
+  flex: none; cursor: pointer; border: 1px solid var(--accent);
+  background: var(--accent-soft); color: var(--accent-dark);
+  font-weight: 700; border-radius: 999px; padding: 8px 13px;
+  font-size: 13px; white-space: nowrap;
+}
+.install-btn:hover { background: var(--accent); color: #fff; }
+.install-btn:focus-visible, .install-close:focus-visible {
+  outline: 3px solid var(--gold-soft); outline-offset: 2px;
+}
+.hidden { display: none !important; }
+
+.install-panel {
+  position: fixed; z-index: 45; top: 66px; right: 12px; width: min(320px, calc(100vw - 24px));
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.16); padding: 14px 42px 14px 16px;
+}
+.install-title { margin: 0 0 4px; font-weight: 700; color: var(--accent-dark); }
+.install-panel p { font-size: 13px; line-height: 1.45; }
+.install-panel p:last-child { margin: 0; }
+.install-steps {
+  margin: 8px 0 0; padding-left: 18px; color: var(--ink-soft);
+  font-size: 13px; line-height: 1.45;
+}
+.install-steps:empty { display: none; }
+.install-close {
+  position: absolute; top: 6px; right: 8px; border: none; background: transparent;
+  color: var(--ink-soft); font-size: 24px; line-height: 1; cursor: pointer;
+}
+
+@media (max-width: 460px) {
+  .topbar-inner { gap: 9px; }
+  .install-btn { padding: 7px 10px; font-size: 12px; }
+  .tagline { display: none; }
+}
 
 /* ---------- layout ---------- */
 .screen { max-width: 760px; margin: 0 auto; padding: 16px; }

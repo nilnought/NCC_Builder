@@ -1,46 +1,46 @@
-const CACHE_NAME = "ncc-builder-v36";
+const CACHE_NAME = "ncc-builder-v37";
 
 const CORE_ASSETS = [
   "./",
   "./index.html",
-  "./manifest.webmanifest?v=36",
+  "./manifest.webmanifest?v=37",
   "./favicon.ico",
   "./favicon.png",
   "./apple-touch-icon.png",
   "./apple-touch-icon-precomposed.png",
   "./android-chrome-192x192.png",
   "./android-chrome-512x512.png",
-  "./css/style.css?v=36",
-  "./data/edition.js?v=36",
-  "./data/glossary.js?v=36",
-  "./data/phase1-site-preparation.js?v=36",
-  "./data/phase2-footings-slabs.js?v=36",
-  "./data/phase3-walls.js?v=36",
-  "./data/phase4-roof.js?v=36",
-  "./data/phase5-glazing.js?v=36",
-  "./data/phase6-fire.js?v=36",
-  "./data/phase7-amenity.js?v=36",
-  "./data/phase8-stairs.js?v=36",
-  "./data/phase9-energy.js?v=36",
-  "./data/phase10-ancillary.js?v=36",
-  "./data/phase11-livable.js?v=36",
-  "./data/phases.js?v=36",
-  "./js/glossary.js?v=36",
-  "./js/questions.js?v=36",
-  "./js/app.js?v=36",
-  "./js/pwa.js?v=36",
-  "./assets/app/icon-48.png?v=36",
-  "./assets/app/icon-72.png?v=36",
-  "./assets/app/icon-96.png?v=36",
-  "./assets/app/icon-128.png?v=36",
-  "./assets/app/icon-144.png?v=36",
-  "./assets/app/icon-152.png?v=36",
-  "./assets/app/icon-180.png?v=36",
-  "./assets/app/icon-192.png?v=36",
-  "./assets/app/icon-384.png?v=36",
-  "./assets/app/icon-512.png?v=36",
-  "./assets/app/maskable-192.png?v=36",
-  "./assets/app/maskable-512.png?v=36"
+  "./css/style.css?v=37",
+  "./data/edition.js?v=37",
+  "./data/glossary.js?v=37",
+  "./data/phase1-site-preparation.js?v=37",
+  "./data/phase2-footings-slabs.js?v=37",
+  "./data/phase3-walls.js?v=37",
+  "./data/phase4-roof.js?v=37",
+  "./data/phase5-glazing.js?v=37",
+  "./data/phase6-fire.js?v=37",
+  "./data/phase7-amenity.js?v=37",
+  "./data/phase8-stairs.js?v=37",
+  "./data/phase9-energy.js?v=37",
+  "./data/phase10-ancillary.js?v=37",
+  "./data/phase11-livable.js?v=37",
+  "./data/phases.js?v=37",
+  "./js/glossary.js?v=37",
+  "./js/questions.js?v=37",
+  "./js/app.js?v=37",
+  "./js/pwa.js?v=37",
+  "./assets/app/icon-48.png?v=37",
+  "./assets/app/icon-72.png?v=37",
+  "./assets/app/icon-96.png?v=37",
+  "./assets/app/icon-128.png?v=37",
+  "./assets/app/icon-144.png?v=37",
+  "./assets/app/icon-152.png?v=37",
+  "./assets/app/icon-180.png?v=37",
+  "./assets/app/icon-192.png?v=37",
+  "./assets/app/icon-384.png?v=37",
+  "./assets/app/icon-512.png?v=37",
+  "./assets/app/maskable-192.png?v=37",
+  "./assets/app/maskable-512.png?v=37"
 ];
 
 self.addEventListener("install", function (event) {
@@ -74,6 +74,25 @@ self.addEventListener("fetch", function (event) {
 
   const requestUrl = new URL(event.request.url);
   if (requestUrl.origin !== self.location.origin) return;
+
+  if (event.request.mode === "navigate") {
+    event.respondWith(
+      fetch(event.request)
+        .then(function (networkResponse) {
+          const responseCopy = networkResponse.clone();
+          caches.open(CACHE_NAME).then(function (cache) {
+            cache.put("./", responseCopy);
+          });
+          return networkResponse;
+        })
+        .catch(function () {
+          return caches.match(event.request).then(function (cachedResponse) {
+            return cachedResponse || caches.match("./");
+          });
+        })
+    );
+    return;
+  }
 
   event.respondWith(
     caches.match(event.request).then(function (cachedResponse) {

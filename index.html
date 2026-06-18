@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#12372A">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="NCC Builder">
-<link rel="manifest" href="manifest.webmanifest?v=36">
+<link rel="manifest" href="manifest.webmanifest?v=37">
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="icon" type="image/png" sizes="48x48" href="favicon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
@@ -17,19 +17,27 @@
 <!-- CACHE-BUSTING: bump ?v= whenever you change any css/js/data file, so
      returning players (and the dev preview) load the new version instead of a
      cached copy. Keep the SAME number on every tag below. -->
-<link rel="stylesheet" href="css/style.css?v=36">
+<link rel="stylesheet" href="css/style.css?v=37">
 </head>
 <body>
 
 <header class="topbar">
   <div class="topbar-inner">
     <span class="logo" aria-hidden="true">&#127968;</span>
-    <div>
+    <div class="brand-block">
       <h1>NCC Builder</h1>
       <p class="tagline">Learn the National Construction Code by building a house, one inspection at a time</p>
     </div>
+    <button class="install-btn hidden" id="install-app" type="button" aria-haspopup="dialog" aria-controls="install-panel" aria-expanded="false">Install app</button>
   </div>
 </header>
+
+<div class="install-panel hidden" id="install-panel" role="dialog" aria-live="polite" aria-label="Install NCC Builder">
+  <button class="install-close" id="install-close" type="button" aria-label="Close">&times;</button>
+  <p class="install-title">Install NCC Builder</p>
+  <p id="install-message">Use your browser menu to add this app to your home screen.</p>
+  <ul class="install-steps" id="install-steps"></ul>
+</div>
 
 <!-- All screens are rendered into this element by js/app.js -->
 <main id="screen" class="screen"></main>
@@ -49,25 +57,25 @@
 
 <!-- Content (data) files: plain JS so the game also works when opened
      directly from the file system, no web server needed. -->
-<script src="data/edition.js?v=36"></script>
-<script src="data/glossary.js?v=36"></script>
-<script src="data/phase1-site-preparation.js?v=36"></script>
-<script src="data/phase2-footings-slabs.js?v=36"></script>
-<script src="data/phase3-walls.js?v=36"></script>
-<script src="data/phase4-roof.js?v=36"></script>
-<script src="data/phase5-glazing.js?v=36"></script>
-<script src="data/phase6-fire.js?v=36"></script>
-<script src="data/phase7-amenity.js?v=36"></script>
-<script src="data/phase8-stairs.js?v=36"></script>
-<script src="data/phase9-energy.js?v=36"></script>
-<script src="data/phase10-ancillary.js?v=36"></script>
-<script src="data/phase11-livable.js?v=36"></script>
-<script src="data/phases.js?v=36"></script>
+<script src="data/edition.js?v=37"></script>
+<script src="data/glossary.js?v=37"></script>
+<script src="data/phase1-site-preparation.js?v=37"></script>
+<script src="data/phase2-footings-slabs.js?v=37"></script>
+<script src="data/phase3-walls.js?v=37"></script>
+<script src="data/phase4-roof.js?v=37"></script>
+<script src="data/phase5-glazing.js?v=37"></script>
+<script src="data/phase6-fire.js?v=37"></script>
+<script src="data/phase7-amenity.js?v=37"></script>
+<script src="data/phase8-stairs.js?v=37"></script>
+<script src="data/phase9-energy.js?v=37"></script>
+<script src="data/phase10-ancillary.js?v=37"></script>
+<script src="data/phase11-livable.js?v=37"></script>
+<script src="data/phases.js?v=37"></script>
 
 <!-- Engine files -->
-<script src="js/glossary.js?v=36"></script>
-<script src="js/questions.js?v=36"></script>
-<script src="js/app.js?v=36"></script>
-<script src="js/pwa.js?v=36"></script>
+<script src="js/glossary.js?v=37"></script>
+<script src="js/questions.js?v=37"></script>
+<script src="js/app.js?v=37"></script>
+<script src="js/pwa.js?v=37"></script>
 </body>
 </html>
