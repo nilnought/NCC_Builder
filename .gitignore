@@ -4,6 +4,9 @@
 # Local source/scratch extracts used while building the content.
 _hp*.txt
 
+# Local backup copy of the website before app/PWA changes.
+website-code-backup/
+
 # OS/editor noise.
 .DS_Store
 Thumbs.db

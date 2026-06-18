@@ -50,6 +50,18 @@ private window for a fresh run).
 3. A few minutes later the game is live at `https://<your-name>.github.io/<repo-name>/`
    — share that link; it works on phones.
 
+## How to install it like an app
+
+The GitHub Pages version is also a Progressive Web App (PWA). After opening the live
+site, people can install it from their browser:
+
+- Android/Chrome: browser menu -> **Add to Home screen** or **Install app**
+- Windows/Chrome or Edge: install icon in the address bar
+- iPhone/iPad/Safari: Share -> **Add to Home Screen**
+
+When app files change, bump the `?v=` number in `index.html` and the cache name in
+`sw.js` so returning players get the new version.
+
 ## Project layout
 
 ```
