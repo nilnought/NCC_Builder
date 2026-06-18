@@ -53,7 +53,9 @@ private window for a fresh run).
 ## How to install it like an app
 
 The GitHub Pages version is also a Progressive Web App (PWA). After opening the live
-site, people can install it from their browser:
+site, people can use the **Install app** button in the header. When the browser
+supports an automatic install prompt, that button opens it directly. Otherwise, it
+shows short platform-specific instructions:
 
 - Android/Chrome: browser menu -> **Add to Home screen** or **Install app**
 - Windows/Chrome or Edge: install icon in the address bar
@@ -68,6 +70,7 @@ When app files change, bump the `?v=` number in `index.html` and the cache name 
 index.html                      the one page; lists every script the game loads
 css/style.css                   all styling (colours are CSS variables at the top)
 js/app.js                       screens, navigation, saved progress, house drawing
+js/pwa.js                       service worker registration + in-app install button
 js/questions.js                 the 3 question-type renderers + the source panel
 js/glossary.js                  [[jargon]] links and the popup dictionary card
 data/edition.js                 WHICH NCC edition the content is based on (read this!)
