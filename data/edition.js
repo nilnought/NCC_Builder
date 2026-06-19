@@ -34,7 +34,7 @@ NCC.edition = {
   officialUrl: "https://ncc.abcb.gov.au/",
 
   // Shown in the footer of every page
-  authors: "Xiang Wang & Yue Sun",
+  authors: "Xiang Wang & Yue Sun. Email: wingxoushi@outlook.com",
   shortNote:
     "Unofficial study aid, not professional advice — always check the current NCC and your State/Territory variations."
 };
